@@ -87,15 +87,15 @@ export default function Navbar() {
             </button>
             <div className=" flex gap-8  items-center flex-col">
               {Nav.map((ele, index) => (
-                <div key={index}>
+                <button onClick={()=>{setOpen(!open)}} key={index}>
                   <Link
                     href={ele.href}
                     locale={locale}
-                    className=" capitalize  font-semibold"
-                  >
+                    className={`${router.pathname==ele.href?'border-b-2 border-[#0149A6]  text-[#0149A6]':''} capitalize text-lg font-semibold`}
+                    >
                     {t(ele.title)}
                   </Link>
-                </div>
+                </button>
               ))}
               <a
                 className="flex items-center  gap-2 bg-[#0149A6] py-2 px-2 text-white rounded-full font-mediumt"
