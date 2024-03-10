@@ -22,8 +22,8 @@ export default function AboutUs() {
             alt="Explorem"
           />
           <div className=" absolute  items-center justify-center flex flex-col  inset-0 z-20">
-            <div className="bg-[#0149A6]  absolute right-0 left-0 items-center flex flex-col  lg:py-10 py-4 text-white  ">
-              <h1 className="lg:text-6xl text-xl font-bold">{t("aboutUs")}</h1>
+            <div className="bg-[#0149A6]  absolute right-0 left-0 items-center flex flex-col  gap-2 capitalize lg:py-10 py-4 text-white  ">
+              <h1 className="lg:text-5xl text-xl font-bold">{t("aboutUs")}</h1>
               <span className="lg:text-4xl ">{t("aboutUsSlogen")}</span>
             </div>
           </div>
