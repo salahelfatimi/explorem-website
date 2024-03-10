@@ -34,7 +34,7 @@ export default function AboutUs() {
       
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-between w-full container gap-8 ">
-      <img src="/image/aboutUS/slogen1.jpg" className="lg:w-1/2 rounded-xl" alt="" />
+      <img src="/image/aboutUS/slogen1.jpg" className="lg:w-1/2 rounded-xl" alt="Explorem" />
           <p className="bg-[#0149A6] text-white py-10 px-2 rounded-lg lg:w-1/2 font-mono lg:text-3xl md:text-2xl text-xl text-center">{t('slogen1')} </p>
           
       </div>
