@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 import { Menu, Moon, Phone, X } from "react-feather";
 import { useTranslation } from "next-i18next";
-import ChangeLungage from "./ChangeLungage";
+import ChangeLungage from "../pages/components/changeLungage";
 
 export default function Navbar() {
   const { locale } = useRouter();
