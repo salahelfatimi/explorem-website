@@ -17,7 +17,7 @@ export default function AboutUs() {
       <div className="flex flex-col gap-10">
         <div className=" relative z-10">
           <img
-            src="/image/aboutUS/saction1.png"
+            src="/image/aboutUS/saction1.jpg"
             className="lg:h-[30rem] h-[14rem] w-full"
             alt="Explorem"
           />
