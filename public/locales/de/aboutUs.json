@@ -1,6 +1,14 @@
 {
-  "aboutUs": "über uns",
-  "aboutUsSlogen": "Ein paar Gründe, uns zu wählen",
-  "aboutUsText": "Explorem ist ein Team von Experten, das Dienstleistungen im Bereich Humanressourcen, Sprach- und Krankenpflegeausbildung sowie Coaching in den Bereichen Rekrutierung, Management und Schulung sowohl in Marokko als auch im Ausland anbietet. Was uns von anderen unterscheidet, ist, wie wir unsere Kandidaten behandeln und ihnen bei der Schaffung von Karrierechancen helfen und sie auf dem globalen Markt qualifizieren. Gegründet im Jahr 2021 von seinen derzeitigen Geschäftsführern, Herrn Abdessamad Aboul ossoud und Dr. Gracila V. Ucag. Beide haben wesentliche Erfahrungen in der Zusammenarbeit mit ausländischen Geschäftspartnern, um qualifizierte Fachleute beim Sprung in ihren neuen Traumjob zu unterstützen.",
-  "slogen1": "“ Machen Sie den Sprung zu Ihrem Traumjob. Schaffen Sie mit uns Ihre Karrierechancen, um Ihre Ziele wahr werden zu lassen!“"
-}
+    "aboutUs": "über uns",
+    "aboutUsSlogen": "Ein paar Gründe, uns zu wählen",
+    "aboutUsText": {
+      "line1": "Explorem ist ein Team von Experten, das Dienstleistungen im Bereich Humanressourcen, Sprach- und Krankenpflegeausbildung sowie Coaching in den Bereichen Rekrutierung, Management und Schulung sowohl in Marokko als auch im Ausland anbietet. ",
+      "line2": "Was uns von anderen unterscheidet, ist, wie wir unsere Kandidaten behandeln und ihnen bei der Schaffung von Karrierechancen helfen und sie auf dem globalen Markt qualifizieren. ",
+      "line3": "Gegründet im Jahr 2021 von seinen derzeitigen Geschäftsführern, Herrn Abdessamad Aboul ossoud und Dr. Gracila V. Ucag. Beide haben wesentliche Erfahrungen in der Zusammenarbeit mit ausländischen Geschäftspartnern, um qualifizierte Fachleute beim Sprung in ihren neuen Traumjob zu unterstützen."
+    },
+    "slogen1": {
+      "line1": "„Machen Sie den Sprung zu Ihrem Traumjob. ",
+      "line2": "Schaffen Sie mit uns Ihre Karrierechancen, um Ihre Ziele wahr werden zu lassen!“"
+    }
+  }
+  

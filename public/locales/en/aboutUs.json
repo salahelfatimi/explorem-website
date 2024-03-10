@@ -1,6 +1,13 @@
 {
   "aboutUs": "about us",
   "aboutUsSlogen": "A few reasons for choosing us",
-  "aboutUsText": "Explorem is a team of experts providing services related to human resources, language and nursing formation, and coaching on recruitment, management and training, both in Morocco and abroad. What makes us different among the others is on how we treat and assist our candidates in creating their career opportunities and be qualified in the global market. Founded in year 2021, by its present twomanaging directors, Mr. Abdessamad Aboul ossoud and Dr. Gracila V. Ucag. Both have essential experiences working with foreign business partners in assisting qualified professionals to make the leap to their new dream job.",
-  "slogen1": "“ Make a leap to your dream job. Create your career opportunities with us to make your goals come true! ”"
+  "aboutUsText": {
+    "line1": "Explorem is a team of experts providing services related to human resources, language and nursing formation, and coaching on recruitment, management and training, both in Morocco and abroad. ",
+    "line2":"What makes us different among the others is on how we treat and assist our candidates in creating their career opportunities and be qualified in the global market. ",
+    "line3": " Founded in year 2021, by its present twomanaging directors, Mr. Abdessamad Aboul ossoud and Dr. Gracila V. Ucag. Both have essential experiences working with foreign business partners in assisting qualified professionals to make the leap to their new dream job."
+  },
+  "slogen1": {
+    "line1": "“ Make a leap to your dream job. ",
+    "line2": "Create your career opportunities with us to make your goals come true! ”"
+  }
 }

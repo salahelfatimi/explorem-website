@@ -29,14 +29,27 @@ export default function AboutUs() {
           </div>
         </div>
        
-        <p className=" text-center  lg:text-2xl p-4">{t("aboutUsText")}</p>
+        <span className=" text-center  lg:text-2xl  p-4">
+          
+          <p>{t('aboutUsText.line1')}</p>
+          <p>{t('aboutUsText.line2')}</p>
+          <p>{t('aboutUsText.line3')}</p>
+          
+        </span>
         
       
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-between w-full container gap-8 ">
-      <img src="/image/aboutUS/slogen1.jpg" className="lg:w-1/2 rounded-xl" alt="Explorem" />
-          <p className="bg-[#0149A6] text-white py-10 px-2 rounded-lg lg:w-1/2 font-mono lg:text-3xl md:text-2xl text-xl text-center">{t('slogen1')} </p>
-          
+        <img src="/image/aboutUS/slogen1.jpg" className="lg:w-1/2 rounded-xl" alt="Explorem" />
+        <span className="bg-[#0149A6] text-white py-10 px-2 rounded-lg lg:w-1/2 font-mono lg:text-3xl md:text-2xl text-xl text-center">
+          <p>{t('slogen1.line1')}</p>
+          <p>{t('slogen1.line2')}</p>
+        </span>
+      </div>
+      <div>
+          <p></p>
+          <img src="/image/aboutUS/logoHand.png" alt="Explorem" />
+          <p></p>
       </div>
     </div>
   );
