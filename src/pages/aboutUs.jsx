@@ -13,7 +13,7 @@ export default function AboutUs() {
   const { t } = useTranslation("aboutUs");
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 bg-[#F5F5F5]">
       <div className="flex flex-col gap-10">
         <div className=" bg-[url('/image/aboutUS/saction1.jpg')] bg-cover  ">
           <div className=" py-28 ">
@@ -76,21 +76,27 @@ export default function AboutUs() {
         </div>
       </div>
       <div className=" flex flex-col gap-4">
-          <span className="flex  items-center justify-center">
-            <img
+        <span className="flex  items-center justify-center">
+          <img
             src="/image/aboutUS/logoHand.png"
             className="w-24 lg:w-32"
             alt="Explorem"
-            />
-            <p className=" capitalize font-bold text-xl lg:text-3xl text-[#0149a6]">{t('vedioTitle')}</p>
+          />
+          <p className=" capitalize font-bold text-xl lg:text-3xl text-[#0149a6]">
+            {t("vedioTitle")}
+          </p>
+        </span>
 
-          </span>
-          
-          <video className="w-full h-full object-cover" controls autoPlay loop muted >
-              <source src="/video/Explorem.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-          </video>
-
+        <video
+          className="w-full h-full object-cover"
+          controls
+          autoPlay
+          loop
+          muted
+        >
+          <source src="/video/Explorem.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );
