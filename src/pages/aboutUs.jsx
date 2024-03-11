@@ -24,10 +24,10 @@ export default function AboutUs() {
           </div>
         </div>
 
-        <span className=" text-center  lg:text-2xl  capitalize  container">
-          <p>{t("aboutUsText.line1")}</p>
-          <p>{t("aboutUsText.line2")}</p>
-          <p>{t("aboutUsText.line3")}</p>
+        <span className=" text-center  lg:text-2xl    container">
+          <p>{t("aboutUsText.line1")} <span className=" font-bold text-[#0149A6]">{t("aboutUsText.line2")}</span>{t("aboutUsText.line3")}</p>
+          <p >{t("aboutUsText.line4")}</p>
+          <p>{t("aboutUsText.line5")}</p>
         </span>
       </div>
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full container gap-4 ">
@@ -62,7 +62,7 @@ export default function AboutUs() {
       </div>
       <div className="bg-[url('/image/aboutUS/saction2.jpg')] bg-cover ">
         <div className="bg-[#0149a6]/70  py-16">
-          <div className="right-0 left-0 items-center flex flex-col  container gap-12 capitalize lg:py-10 py-4 text-white">
+          <div className="right-0 left-0 items-center flex flex-col  container gap-12  lg:py-10 py-4 text-white">
             <h2 className="lg:text-4xl text-xl font-bold">
               {t("WhyChooseUs.title")}
             </h2>
