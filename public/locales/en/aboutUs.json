@@ -1,13 +1,31 @@
 {
-  "aboutUs": "about us",
-  "aboutUsSlogen": "A few reasons for choosing us",
-  "aboutUsText": {
-    "line1": "Explorem is a team of experts providing services related to human resources, language and nursing formation, and coaching on recruitment, management and training, both in Morocco and abroad. ",
-    "line2":"What makes us different among the others is on how we treat and assist our candidates in creating their career opportunities and be qualified in the global market. ",
-    "line3": " Founded in year 2021, by its present twomanaging directors, Mr. Abdessamad Aboul ossoud and Dr. Gracila V. Ucag. Both have essential experiences working with foreign business partners in assisting qualified professionals to make the leap to their new dream job."
-  },
-  "slogen1": {
-    "line1": "“ Make a leap to your dream job. ",
-    "line2": "Create your career opportunities with us to make your goals come true! ”"
+    "aboutUs": "About us",
+    "aboutUsSlogen": "A few reasons for choosing us",
+    "aboutUsText": {
+      "line1": "Explorem is a team of experts providing services related to human resources, language, and nursing formation, and coaching on recruitment, management, and training, both in Morocco and abroad.",
+      "line2": "What makes us different among the others is how we treat and assist our candidates in creating their career opportunities and being qualified in the global market.",
+      "line3": "Founded in the year 2021 by its present two managing directors, Mr. Abdessamad Aboul Ossoud and Dr. Gracila V. Ucag. Both have essential experiences working with foreign business partners in assisting qualified professionals to make the leap to their new dream job."
+    },
+    "slogen1": {
+      "line1": "“Make a leap to your dream job.",
+      "line2": "Create your career opportunities with us to make your goals come true!”"
+    },
+    "grid": {
+      "grid1": {
+        "title": "Vision",
+        "text": "The vision of Explorem is to be recognized as an influential and distinguished provider of reliable human resources, management, and recruitment coaching services through excellence in training, scholarly activity, and research, and advancing each candidate's profession."
+      },
+      "grid2": {
+        "title": "Mission",
+        "text": "To provide reliable and transparent human resources services, and excellent professional training and coaching on recruitment and management."
+      }
+    },
+    "WhyChooseUs": {
+      "title": "Why Choose Us?",
+      "line1": "We are committed, reliable, and transparent in providing excellent services to each client and candidate we have.",
+      "line2": "Together, we create opportunities; we guide, support, and motivate candidates to make their career goals come true.",
+      "line3": "We ensure to make a difference in the services we provide, and we make it happen in our own professional way.",
+      "line4": "We believe in pushing the boundaries of what's possible. We are a team of experts committed to delivering outstanding results."
+    },
+    "vedioTitle":"Who We Are"
   }
-}

@@ -1,14 +1,31 @@
 {
-    "aboutUs": "über uns",
+    "aboutUs": "Über uns",
     "aboutUsSlogen": "Ein paar Gründe, uns zu wählen",
     "aboutUsText": {
-      "line1": "Explorem ist ein Team von Experten, das Dienstleistungen im Bereich Humanressourcen, Sprach- und Krankenpflegeausbildung sowie Coaching in den Bereichen Rekrutierung, Management und Schulung sowohl in Marokko als auch im Ausland anbietet. ",
-      "line2": "Was uns von anderen unterscheidet, ist, wie wir unsere Kandidaten behandeln und ihnen bei der Schaffung von Karrierechancen helfen und sie auf dem globalen Markt qualifizieren. ",
-      "line3": "Gegründet im Jahr 2021 von seinen derzeitigen Geschäftsführern, Herrn Abdessamad Aboul ossoud und Dr. Gracila V. Ucag. Beide haben wesentliche Erfahrungen in der Zusammenarbeit mit ausländischen Geschäftspartnern, um qualifizierte Fachleute beim Sprung in ihren neuen Traumjob zu unterstützen."
+      "line1": "Explorem ist ein Team von Experten, das Dienstleistungen im Bereich Personalwesen, Sprache und Krankenpflegeausbildung sowie Coaching in den Bereichen Rekrutierung, Management und Training sowohl in Marokko als auch im Ausland anbietet.",
+      "line2": "Was uns von anderen unterscheidet, ist, wie wir unsere Kandidaten behandeln und unterstützen, um ihre Karrieremöglichkeiten zu schaffen und auf dem globalen Markt qualifiziert zu sein.",
+      "line3": "Gegründet im Jahr 2021 von den derzeitigen Geschäftsführern, Herrn Abdessamad Aboul Ossoud und Dr. Gracila V. Ucag. Beide haben wesentliche Erfahrungen in der Zusammenarbeit mit ausländischen Geschäftspartnern, um qualifizierte Fachleute dabei zu unterstützen, den Sprung in ihren neuen Traumjob zu schaffen."
     },
     "slogen1": {
-      "line1": "„Machen Sie den Sprung zu Ihrem Traumjob. ",
-      "line2": "Schaffen Sie mit uns Ihre Karrierechancen, um Ihre Ziele wahr werden zu lassen!“"
-    }
+      "line1": "„Machen Sie einen Sprung zu Ihrem Traumjob.",
+      "line2": "Schaffen Sie mit uns Ihre Karrieremöglichkeiten, um Ihre Ziele wahr werden zu lassen!“"
+    },
+    "grid": {
+      "grid1": {
+        "title": "Vision",
+        "text": "Die Vision von Explorem besteht darin, als einflussreicher und herausragender Anbieter zuverlässiger Dienstleistungen im Bereich Human Resources, Management und Rekrutierungscoaching durch Exzellenz in Ausbildung, wissenschaftlicher Tätigkeit und Forschung anerkannt zu werden und den Beruf jedes Kandidaten voranzubringen."
+      },
+      "grid2": {
+        "title": "Mission",
+        "text": "Zuverlässige und transparente Dienstleistungen im Bereich Human Resources sowie exzellente berufliche Schulungen und Coachings im Bereich Rekrutierung und Management bereitzustellen."
+      }
+    },
+    "WhyChooseUs": {
+      "title": "Warum Uns Wählen?",
+      "line1": "Wir sind verpflichtet, zuverlässig und transparent exzellente Dienstleistungen für jeden Kunden und Kandidaten anzubieten.",
+      "line2": "Gemeinsam schaffen wir Möglichkeiten; wir begleiten, unterstützen und motivieren Kandidaten, ihre beruflichen Ziele zu erreichen.",
+      "line3": "Wir sorgen dafür, einen Unterschied in den von uns erbrachten Dienstleistungen zu machen und setzen dies auf unsere eigene professionelle Art um.",
+      "line4": "Wir glauben daran, die Grenzen des Möglichen zu verschieben. Wir sind ein Team von Experten, das sich dazu verpflichtet hat, herausragende Ergebnisse zu liefern."
+    },
+    "vedioTitle":"Wie we zijn"
   }
-  

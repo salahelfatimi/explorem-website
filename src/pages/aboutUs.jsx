@@ -82,7 +82,7 @@ export default function AboutUs() {
             className="w-24 lg:w-32"
             alt="Explorem"
             />
-            <p className=" capitalize font-bold text-xl lg:text-3xl text-[#0149a6]">who we are</p>
+            <p className=" capitalize font-bold text-xl lg:text-3xl text-[#0149a6]">{t('vedioTitle')}</p>
 
           </span>
           
