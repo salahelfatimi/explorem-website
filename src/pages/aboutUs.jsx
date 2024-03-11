@@ -15,41 +15,82 @@ export default function AboutUs() {
   return (
     <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-10">
-        <div className=" relative z-10">
-          <img
-            src="/image/aboutUS/saction1.jpg"
-            className="lg:h-[30rem] h-[14rem] w-full"
-            alt="Explorem"
-          />
-          <div className=" absolute  items-center justify-center flex flex-col  inset-0 z-20">
-            <div className="bg-[#0149A6]  absolute right-0 left-0 items-center flex flex-col  gap-2 capitalize lg:py-10 py-4 text-white  ">
-              <h1 className="lg:text-5xl text-xl font-bold">{t("aboutUs")}</h1>
-              <span className="lg:text-4xl ">{t("aboutUsSlogen")}</span>
+        <div className=" bg-[url('/image/aboutUS/saction1.jpg')] bg-cover  ">
+          <div className=" py-28 ">
+            <div className="bg-[#0149A6] w-full items-center flex flex-col  gap-2 capitalize  p-4 text-white  ">
+              <h1 className="lg:text-4xl text-xl font-bold">{t("aboutUs")}</h1>
+              <span className="lg:text-2xl ">{t("aboutUsSlogen")}</span>
             </div>
           </div>
         </div>
-       
-        <span className=" text-center  lg:text-2xl  p-4">
-          
-          <p>{t('aboutUsText.line1')}</p>
-          <p>{t('aboutUsText.line2')}</p>
-          <p>{t('aboutUsText.line3')}</p>
-          
-        </span>
-        
-      
-      </div>
-      <div className="flex flex-col lg:flex-row items-center justify-between w-full container gap-8 ">
-        <img src="/image/aboutUS/slogen1.jpg" className="lg:w-1/2 rounded-xl" alt="Explorem" />
-        <span className="bg-[#0149A6] text-white py-10 px-2 rounded-lg lg:w-1/2 font-mono lg:text-3xl md:text-2xl text-xl text-center">
-          <p>{t('slogen1.line1')}</p>
-          <p>{t('slogen1.line2')}</p>
+
+        <span className=" text-center  lg:text-2xl  capitalize  container">
+          <p>{t("aboutUsText.line1")}</p>
+          <p>{t("aboutUsText.line2")}</p>
+          <p>{t("aboutUsText.line3")}</p>
         </span>
       </div>
-      <div>
-          <p></p>
-          <img src="/image/aboutUS/logoHand.png" alt="Explorem" />
-          <p></p>
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full container gap-4 ">
+        <span className="bg-[#0149A6] text-white py-10 px-2 rounded-lg lg:w-1/2 font-mono font-bold lg:text-2xl md:text-xl text-lg text-center">
+          <p>{t("slogen1.line1")}</p>
+          <p>{t("slogen1.line2")}</p>
+        </span>
+        <img
+          src="/image/aboutUS/slogen1.jpg"
+          className="lg:w-1/3 rounded-xl"
+          alt="Explorem"
+        />
+      </div>
+      <div className="container flex flex-col gap-4 lg:flex-row w-full items-center justify-between text-center">
+        <span className=" bg-white lg:w-1/3 flex flex-col gap-3 p-4 rounded-xl">
+          <p className=" font-bold text-xl uppercase lg:text-2xl text-[#0149a6]">
+            {t("grid.grid1.title")}
+          </p>
+          <p className=" lg:text-lg font-medium">{t("grid.grid1.text")}</p>
+        </span>
+        <img
+          src="/image/aboutUS/logoHand.png"
+          className="w-36"
+          alt="Explorem"
+        />
+        <span className=" bg-white lg:w-1/3 flex flex-col gap-3 p-4 rounded-xl">
+          <p className=" font-bold text-xl uppercase lg:text-2xl text-[#0149a6]">
+            {t("grid.grid2.title")}
+          </p>
+          <p className=" lg:text-lg font-medium">{t("grid.grid2.text")}</p>
+        </span>
+      </div>
+      <div className="bg-[url('/image/aboutUS/saction2.jpg')] bg-cover ">
+        <div className="bg-[#0149a6]/70  py-16">
+          <div className="right-0 left-0 items-center flex flex-col  container gap-12 capitalize lg:py-10 py-4 text-white">
+            <h2 className="lg:text-4xl text-xl font-bold">
+              {t("WhyChooseUs.title")}
+            </h2>
+            <span className="text-lg lg:text-2xl flex flex-col gap-2 text-center">
+              <p>{t("WhyChooseUs.line1")}</p>
+              <p>{t("WhyChooseUs.line2")}</p>
+              <p>{t("WhyChooseUs.line3")}</p>
+              <p>{t("WhyChooseUs.line4")}</p>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className=" flex flex-col gap-4">
+          <span className="flex  items-center justify-center">
+            <img
+            src="/image/aboutUS/logoHand.png"
+            className="w-24 lg:w-32"
+            alt="Explorem"
+            />
+            <p className=" capitalize font-bold text-xl lg:text-3xl text-[#0149a6]">who we are</p>
+
+          </span>
+          
+          <video className="w-full h-full object-cover" controls autoPlay loop muted >
+              <source src="/video/Explorem.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+          </video>
+
       </div>
     </div>
   );
