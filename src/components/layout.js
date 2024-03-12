@@ -9,7 +9,7 @@ export default function Layout({ children }) {
         <title>Explorem</title>
         <link
           rel="icon"
-          href="/image/aboutUS/logoHand.png"
+          href="/image/logo/logoHand.png"
           type="image/png"
           sizes="<generated>"
         />
