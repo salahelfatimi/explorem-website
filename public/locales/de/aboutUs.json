@@ -1,34 +1,45 @@
 {
     "aboutUs": "Über uns",
-    "aboutUsSlogen": "Ein paar Gründe, warum Sie uns wählen sollten",
+    "aboutUsSlogen": "Ein paar Gründe, uns zu wählen",
     "aboutUsText": {
-        "line1": "Explorem ist ein Expertenteam, das Dienstleistungen im Zusammenhang mit",
-        "line2": "Personalwesen, Sprache und Pflegeausbildung sowie Coaching in den Bereichen Rekrutierung, Management und Schulung anbietet ",
-        "line3": " , sowohl in Marokko als auch im Ausland.",
-
-        "line4": "Was uns von anderen unterscheidet, ist, wie wir unsere Kandidaten behandeln und unterstützen, um ihre Karrierechancen zu schaffen und sich auf dem globalen Markt zu qualifizieren.",
-        "line5": "Gegründet im Jahr 2021 von den derzeitigen beiden Geschäftsführern, Herrn Abdessamad Aboul Ossoud und Dr. Gracila V. Ucag. Beide haben wesentliche Erfahrungen in der Zusammenarbeit mit ausländischen Geschäftspartnern gesammelt, um qualifizierten Fachleuten den Sprung in ihren neuen Traumjob zu ermöglichen."
+      "line1": "Explorem ist ein Team von Experten, das Dienstleistungen im Bereich",
+      "line2": "Personalwesen, Sprache und Pflegeausbildung bietet, sowie Coaching in den Bereichen Rekrutierung, Management und Training",
+      "line3": ", sowohl in Marokko als auch im Ausland.",
+      "line4": "Was uns von anderen unterscheidet, ist, wie wir unsere Kandidaten behandeln und unterstützen, um ihre Karrierechancen zu schaffen und sich auf dem globalen Markt zu qualifizieren.",
+      "line5": "Gegründet im Jahr 2021 von den derzeitigen beiden Geschäftsführern, Herrn Abdessamad Aboul Ossoud und Dr. Gracila V. Ucag. Beide verfügen über wesentliche Erfahrungen in der Zusammenarbeit mit ausländischen Geschäftspartnern, um qualifizierte Fachleute beim Sprung in ihren neuen Traumjob zu unterstützen."
     },
     "slogen1": {
-        "line1": "„Machen Sie den Sprung zu Ihrem Traumjob.",
-        "line2": "Schaffen Sie mit uns Ihre Karrierechancen, um Ihre Ziele wahr werden zu lassen!“"
+      "line1": "„Mache einen Sprung zu deinem Traumjob.",
+      "line2": "Schaffe mit uns deine Karrierechancen, um deine Ziele wahr werden zu lassen!“"
     },
     "grid": {
-        "grid1": {
-            "title": "Vision",
-            "text": "Die Vision von Explorem besteht darin, als einflussreicher und herausragender Anbieter zuverlässiger Dienstleistungen im Bereich Personalwesen, Management und Rekrutierungscoaching anerkannt zu werden, durch Exzellenz in Training, wissenschaftlicher Aktivität und Forschung und Förderung der beruflichen Laufbahn eines jeden Kandidaten."
-        },
-        "grid2": {
-            "title": "Mission",
-            "text": "Zuverlässige und transparente Dienstleistungen im Personalwesen anbieten sowie exzellente berufliche Schulungen und Coachings in den Bereichen Rekrutierung und Management."
-        }
+      "grid1": {
+        "title": "Vision",
+        "text": "Die Vision von Explorem besteht darin, als einflussreicher und herausragender Anbieter zuverlässiger Dienstleistungen im Bereich Human Resources, Management und Rekrutierungscoaching anerkannt zu werden, durch Exzellenz in Schulung, wissenschaftlicher Tätigkeit und Forschung und Förderung der beruflichen Laufbahn jedes Kandidaten."
+      },
+      "grid2": {
+        "title": "Mission",
+        "text": "Zuverlässige und transparente Dienstleistungen im Bereich Human Resources sowie hervorragende professionelle Schulungen und Coaching im Bereich Rekrutierung und Management bereitzustellen."
+      }
     },
     "WhyChooseUs": {
-        "title": "Warum Uns Wählen?",
-        "line1": "Wir sind engagiert, zuverlässig und transparent und bieten ausgezeichnete Dienstleistungen für jeden Kunden und Kandidaten, den wir haben.",
-        "line2": "Gemeinsam schaffen wir Chancen; wir leiten, unterstützen und motivieren Kandidaten, ihre Karriereziele zu verwirklichen.",
-        "line3": "Wir sorgen dafür, einen Unterschied in den von uns erbrachten Dienstleistungen zu machen, und wir setzen dies auf unsere eigene professionelle Weise um.",
-        "line4": "Wir glauben daran, die Grenzen des Möglichen zu überschreiten. Wir sind ein Expertenteam, das sich verpflichtet hat, herausragende Ergebnisse zu liefern."
+      "title": "Warum uns wählen?",
+      "line1": "Wir sind engagiert, zuverlässig und transparent bei der Bereitstellung exzellenter Dienstleistungen für jeden Kunden und Kandidaten, den wir haben.",
+      "line2": "Gemeinsam schaffen wir Chancen; wir führen, unterstützen und motivieren Kandidaten, ihre beruflichen Ziele zu erreichen.",
+      "line3": "Wir stellen sicher, dass wir einen Unterschied in den von uns erbrachten Dienstleistungen machen und setzen dies auf unsere eigene professionelle Art und Weise um.",
+      "line4": "Wir glauben daran, die Grenzen des Möglichen zu erweitern. Wir sind ein Team von Experten, das sich dazu verpflichtet hat, herausragende Ergebnisse zu liefern."
     },
-    "vedioTitle": "Wer Wir Sind"
-}
+    "vedioTitle": "Wer wir sind",
+    "whatWeHaveAchieved": {
+      "title": "Was wir erreicht haben?",
+      "line1": "Unser Programm wurde mehr als 2.000+ Studenten und Absolventen in ganz Marokko vorgestellt.",
+      "line2": "800+ Studenten und Krankenschwestern haben Verträge mit unserem vorherigen Programm für Krankenschwestern unterzeichnet.",
+      "line3": "Wir haben Partnerschaften mit Schulen in verschiedenen Städten Marokkos etabliert.",
+      "line4": "Im Zeitraum von 2021 bis 2022 wurden 95 Krankenschwestern, die eine endgültige Defizitbenachrichtigung erhalten haben, zur Wissensprüfung zugelassen, und 2 wurden direkt anerkannt.",
+      "line5": "Mehr als 70 Kandidaten, die an unserem Programm teilgenommen haben, wurden nach Deutschland umgesiedelt.",
+      "line6": "Im Februar 2023 haben wir in Zusammenarbeit mit deutschen Arbeitgebern 34 frisch ausgebildete Krankenschwester-Kandidaten mit Stipendien in unserem Programm aufgenommen. Dies beinhaltet kostenlose B1- und B2-Sprachkurse, monatliche Stipendien, Prüfungsgebühren, Anerkennungs- und Qualifikationsgebühren, Visakosten und andere Umzugskosten.",
+      "line7": "Von Februar bis März 2023 haben 54 unserer aktiven Kandidaten direkt Arbeitsverträge mit deutschen Arbeitgebern unterzeichnet.",
+      "line8": "100% der Unternehmensstipendiaten, die am B1-Kurs vor Ort teilgenommen haben, haben die Prüfung bestanden und im Juli 2023 ihre Sprachzertifikate erhalten.",
+      "line9": "Im Jahr 2023 wurden 15 Krankenschwester-Kandidaten umgesiedelt, und 23 andere Kandidaten erhielten ihre Defizitbenachrichtigung für die Anerkennung ihres Diplomäquivalents."
+    }
+  }

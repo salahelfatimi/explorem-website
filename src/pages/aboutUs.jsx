@@ -1,6 +1,7 @@
 "use client";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import { Check } from "react-feather";
 export async function getStaticProps({ locale }) {
   return {
     props: {
@@ -97,6 +98,24 @@ export default function AboutUs() {
           <source src="/video/Explorem.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        
+      </div>
+      <div className=" container flex flex-col  gap-4">
+        <p className=" capitalize font-bold text-center text-xl lg:text-3xl text-[#0149a6]">
+            {t("whatWeHaveAchieved.title")}
+        </p>
+      
+        <ul className="  px-2 lg:text-xl flex flex-col gap-4 font-semibold list-outside leading-loose ">
+          <li className=" border-l-4 border-[#0149a6] pl-4" >{t("whatWeHaveAchieved.line1")}</li>
+          <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line2")}</li>
+          <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line3")}</li>
+          <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line4")}</li>
+          <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line5")}</li>
+          <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line6")}</li>
+          <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line7")}</li>
+          <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line8")}</li>
+          <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line9")}</li>
+        </ul>
       </div>
     </div>
   );
