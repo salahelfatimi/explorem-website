@@ -34,7 +34,7 @@ const InfiniteHorizontalScroll = ({image}) => {
           display: "flex",
         }}
       >
-        {image.map((index) => (
+        {image?.map((index) => (
           <img
             key={index}
             src={`/image/aboutUS/image${index}.png`}
