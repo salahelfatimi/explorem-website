@@ -118,19 +118,24 @@ export default function AboutUs() {
           <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line9")}</li>
         </ul>
       </div>
-      <div className=" flex flex-col  items-center gap-8">
-        <div >
+    
+        <div  >
             <InfiniteHorizontalScroll/>
             
         </div>
-        <span className="bg-[#0149A6] text-white py-10 px-2 rounded-lg lg:w-1/2 font-mono font-bold lg:text-2xl md:text-xl text-lg text-center">
-            <p>{t("slogen2.line1")}</p>
-            <p>{t("slogen2.line2")}</p>
-        </span>
+        <div className=" container">
+        <div className="bg-[#0149A6] rounded-md ">
+          <span className="text-white py-10 px-2 rounded-lg lg:w-1/2 font-mono font-bold lg:text-2xl md:text-xl text-lg text-center">
+              <p>{t("slogen2.line1")}</p>
+              <p>{t("slogen2.line2")}</p>
+          </span>
+        </div>
+        </div>
+        
         <div >
             <InfiniteHorizontalScroll/>
         </div>
-      </div>
+     
     </div>
   );
 }
