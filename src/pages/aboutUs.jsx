@@ -124,8 +124,8 @@ export default function AboutUs() {
             
         </div>
         <div className=" container">
-        <div className="bg-[#0149A6] rounded-md ">
-          <span className="text-white py-10 px-2 rounded-lg lg:w-1/2 font-mono font-bold lg:text-2xl md:text-xl text-lg text-center">
+        <div className="bg-[#0149A6] rounded-md px-4 py-10  ">
+          <span className="text-white  rounded-lg  font-mono font-bold lg:text-2xl md:text-xl text-lg text-center">
               <p>{t("slogen2.line1")}</p>
               <p>{t("slogen2.line2")}</p>
           </span>
