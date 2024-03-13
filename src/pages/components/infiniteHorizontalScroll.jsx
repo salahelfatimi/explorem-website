@@ -13,7 +13,7 @@ const InfiniteHorizontalScroll = ({image}) => {
         if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
           container.scrollLeft = 0; // Reset to the beginning when reaching the end
         }
-      }, 40);
+      }, 30);
     };
 
     startScrolling();
