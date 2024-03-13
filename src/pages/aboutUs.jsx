@@ -2,6 +2,7 @@
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { Check } from "react-feather";
+import InfiniteHorizontalScroll from "./components/infiniteHorizontalScroll";
 export async function getStaticProps({ locale }) {
   return {
     props: {
@@ -116,6 +117,19 @@ export default function AboutUs() {
           <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line8")}</li>
           <li className=" border-l-4 border-[#0149a6] pl-4">{t("whatWeHaveAchieved.line9")}</li>
         </ul>
+      </div>
+      <div className=" flex flex-col  items-center gap-8">
+        <div >
+            <InfiniteHorizontalScroll/>
+            
+        </div>
+        <span className="bg-[#0149A6] text-white py-10 px-2 rounded-lg lg:w-1/2 font-mono font-bold lg:text-2xl md:text-xl text-lg text-center">
+            <p>{t("slogen2.line1")}</p>
+            <p>{t("slogen2.line2")}</p>
+        </span>
+        <div >
+            <InfiniteHorizontalScroll/>
+        </div>
       </div>
     </div>
   );
