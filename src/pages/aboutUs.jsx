@@ -131,10 +131,7 @@ export default function AboutUs() {
           </span>
         </div>
         </div>
-        <div className="bg-[#0149a6] py-6" >
-            <InfiniteHorizontalScroll />
-            
-        </div>
+        
         
      
      
