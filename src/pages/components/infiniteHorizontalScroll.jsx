@@ -1,48 +1,32 @@
-import React, { useRef, useEffect } from "react";
 
-const InfiniteHorizontalScroll = ({image}) => {
-  const containerRef = useRef(null);
-
-  useEffect(() => {
-    const container = containerRef.current;
-    let interval;
-
-    const startScrolling = () => {
-      interval = setInterval(() => {
-        container.scrollLeft += 2; // Scroll to the right by 2 pixels
-        if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
-          container.scrollLeft = 0; // Reset to the beginning when reaching the end
-        }
-      }, 30);
-    };
-
-    startScrolling();
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
+const InfiniteHorizontalScroll = () => {
+  
 
   return (
-    <div className="bg-[#0149a6] overflow-hidden">
-      <div
-        ref={containerRef}
-        className="grid grid-cols-6 gap-8 p-8 items-center overflow-hidden"
-        style={{
-          scrollSnapType: "x mandatory",
-          whiteSpace: "nowrap",
-          display: "flex",
-        }}
-      >
-        {image?.map((index) => (
-          <img
-            key={index}
-            src={`/image/aboutUS/slideLeft/image${index}.jpg`}
-            className="rounded-xl h-60 w-auto"
-            alt={`image${index}`}
-          />
-        ))}
-      </div>
+    <div className="flex overflow-hidden space-x-16 group ">
+        <div className="flex space-x-16 animate-loop-scroll ">
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image1.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image2.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image3.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image4.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image5.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image6.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image7.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image8.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+        
+
+        </div>
+        <div className="flex space-x-16 animate-loop-scroll " aria-hidden="true">
+        <img loading="lazy" src="/image/aboutUs/slideLeft/image1.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image2.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image3.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image4.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image5.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image6.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image7.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+            <img loading="lazy" src="/image/aboutUs/slideLeft/image8.jpg" className="max-w-none rounded-xl h-60 w-auto" alt="explorem" />
+           
+        </div>
     </div>
   );
 };

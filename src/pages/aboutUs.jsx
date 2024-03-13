@@ -119,8 +119,8 @@ export default function AboutUs() {
         </ul>
       </div>
     
-        <div  >
-            <InfiniteHorizontalScroll image={[1,2,3,4,5,6,7,8,9,10,11,12]}/>
+        <div className="bg-[#0149a6] py-6" >
+            <InfiniteHorizontalScroll />
             
         </div>
         <div className=" container">
@@ -130,6 +130,10 @@ export default function AboutUs() {
               <p>{t("slogen2.line2")}</p>
           </span>
         </div>
+        </div>
+        <div className="bg-[#0149a6] py-6" >
+            <InfiniteHorizontalScroll />
+            
         </div>
         
      
