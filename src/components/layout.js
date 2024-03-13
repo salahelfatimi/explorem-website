@@ -13,6 +13,12 @@ export default function Layout({ children }) {
           type="image/png"
           sizes="<generated>"
         />
+        <meta
+          name="description"
+          content="Explorem - Experts in HR, linguistic & nursing training, recruitment, and coaching. Helping candidates excel globally. Founded in 2021."
+          key="desc"
+        />
+
       </Head>
       <Navbar />
       <main className="py-24 mb-auto">{children}</main>
