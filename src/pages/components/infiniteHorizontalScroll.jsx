@@ -27,7 +27,7 @@ const InfiniteHorizontalScroll = ({image}) => {
     <div className="bg-[#0149a6] overflow-hidden">
       <div
         ref={containerRef}
-        className="grid grid-cols-6 gap-4 p-8 items-center overflow-hidden"
+        className="grid grid-cols-6 gap-8 p-8 items-center overflow-hidden"
         style={{
           scrollSnapType: "x mandatory",
           whiteSpace: "nowrap",
@@ -37,7 +37,7 @@ const InfiniteHorizontalScroll = ({image}) => {
         {image?.map((index) => (
           <img
             key={index}
-            src={`/image/aboutUS/image${index}.png`}
+            src={`/image/aboutUS/slideLeft/image${index}.png`}
             className="rounded-xl h-60 w-auto"
             alt={`image${index}`}
           />

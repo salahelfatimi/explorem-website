@@ -69,8 +69,8 @@ export default function AboutUs() {
               {t("WhyChooseUs.title")}
             </h2>
             <span className="text-lg lg:text-2xl flex flex-col gap-2 text-center">
-              <p>{t("WhyChooseUs.line1")}</p>
-              <p>{t("WhyChooseUs.line2")}</p>
+              <p className=" font-bold text-[#0149a6] bg-white">{t("WhyChooseUs.line1")}</p>
+              <p className=" font-bold text-[#0149a6] bg-white">{t("WhyChooseUs.line2")}</p>
               <p>{t("WhyChooseUs.line3")}</p>
               <p>{t("WhyChooseUs.line4")}</p>
             </span>
@@ -120,7 +120,7 @@ export default function AboutUs() {
       </div>
     
         <div  >
-            <InfiniteHorizontalScroll image={[1,2,3,4,5,6,7]}/>
+            <InfiniteHorizontalScroll image={[1,2,3,4,5,6,7,8,9,10,11,12]}/>
             
         </div>
         <div className=" container">
@@ -133,7 +133,7 @@ export default function AboutUs() {
         </div>
         
         <div >
-            <InfiniteHorizontalScroll image={[7,6,5,4,3,2,1]}/>
+            <InfiniteHorizontalScroll image={[7,5,9,4,10,6,1,2,3,8,11,12]}/>
         </div>
      
     </div>
