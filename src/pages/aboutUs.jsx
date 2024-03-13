@@ -125,16 +125,14 @@ export default function AboutUs() {
         </div>
         <div className=" container">
         <div className="bg-[#0149A6] rounded-md px-4 py-10  ">
-          <span className="text-white  rounded-lg  font-mono font-bold lg:text-2xl md:text-xl text-lg text-center">
+          <span className="text-white   rounded-lg  font-mono font-bold lg:text-2xl md:text-xl text-lg text-center">
               <p>{t("slogen2.line1")}</p>
               <p>{t("slogen2.line2")}</p>
           </span>
         </div>
         </div>
         
-        <div >
-            <InfiniteHorizontalScroll image={[7,5,9,4,10,6,1,2,3,8,11,12]}/>
-        </div>
+     
      
     </div>
   );

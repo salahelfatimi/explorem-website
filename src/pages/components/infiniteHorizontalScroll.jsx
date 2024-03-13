@@ -37,7 +37,7 @@ const InfiniteHorizontalScroll = ({image}) => {
         {image?.map((index) => (
           <img
             key={index}
-            src={`/image/aboutUS/slideLeft/image${index}.png`}
+            src={`/image/aboutUS/slideLeft/image${index}.jpg`}
             className="rounded-xl h-60 w-auto"
             alt={`image${index}`}
           />
