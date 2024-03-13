@@ -104,7 +104,7 @@ export default function Navbar() {
                 <Phone size={20} />
                 (+212) 6 02 31 48 04
               </a>
-              <ChangeLungage />
+              <ChangeLungage setOpen={setOpen} open={open} />
               <button className="bg-[#0149A6] rounded-full p-1">
                 <Moon size={25} className="  stroke-white   " />
               </button>

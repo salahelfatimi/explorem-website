@@ -120,7 +120,7 @@ export default function AboutUs() {
       </div>
     
         <div  >
-            <InfiniteHorizontalScroll/>
+            <InfiniteHorizontalScroll image={[1,2,3,4,5,6,7]}/>
             
         </div>
         <div className=" container">
@@ -133,7 +133,7 @@ export default function AboutUs() {
         </div>
         
         <div >
-            <InfiniteHorizontalScroll/>
+            <InfiniteHorizontalScroll image={[7,6,5,4,3,2,1]}/>
         </div>
      
     </div>

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 
-const InfiniteHorizontalScroll = () => {
+const InfiniteHorizontalScroll = ({image}) => {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ const InfiniteHorizontalScroll = () => {
           display: "flex",
         }}
       >
-        {[1, 2, 3, 4, 5, 6, 7].map((index) => (
+        {image.map((index) => (
           <img
             key={index}
             src={`/image/aboutUS/image${index}.png`}
