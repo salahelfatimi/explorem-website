@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function Loading() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   useEffect(() => {
     const slideInterval = setInterval(() => {
       setShow(true);
