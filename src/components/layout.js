@@ -21,7 +21,7 @@ export default function Layout({ children }) {
 
       </Head>
       <Navbar />
-      <main className="py-24 mb-auto">{children}</main>
+      <main className="pt-24 mb-auto">{children}</main>
       <Footer />
     </>
   );
