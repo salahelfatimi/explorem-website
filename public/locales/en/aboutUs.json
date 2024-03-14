@@ -46,5 +46,32 @@
     "slogen2": {
       "line1": "“ We believe in pushing boundaries of what’s possible. " ,
       "line2": "  We are a team of experts committed to delivering outstanding results.” "
+    },
+    "ourTeamManagement":{
+      "title":"Our Team – Management",
+      "team":{
+          "Gracila":{
+             "fullName":"GRACILA V. UCAG, RN, MAN, PHD",
+             "job":"Co-founder/ Managing Director",
+             "experiences":{
+                "1":"Bachelor of Science in Nursing (BSN)",
+                "2":"Master of Arts in Nursing (MAN), with specialization in Adult Health Nursing and Community Health Nursing ",
+                "3":"Doctor of Philosophy (PhD), Educational Management, with specialization in nursing education ",
+                "4":"Philippines Registered Nurse ",
+                "5":"Freelance nursing professor ",
+                "6":"Works in nursing education/formation/training since 2004 , with specialization in medical-surgical nursing, nursing research and evidence-based practice (12 years in the University in Philippines and 5 years in UAE-managed College, Morocco Campus)."
+             }
+          },
+          "Abdessamad":{
+            "fullName":"ABDESSAMAD ABOUL OSSOUD",
+            "job":"Co-founder/ Managing Director",
+            "experiences":{
+               "1":"Diploma in Optics Optometry",
+               "2":"Morocco tourism - Professional National Official Tour Guide ",
+               "3":"Audio-visual and professional photography location manager since 1995 ",
+               "4":"Translator: Arabic, French, English, Russian, and Spanish "
+                  }
+         }
+      }
     }
   }
