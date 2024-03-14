@@ -172,7 +172,7 @@ export default function AboutUs() {
           </p>
         </span>
         <div className=" space-y-16">
-            <div className="flex lg:flex-row flex-col items-center justify-center gap-1  container ">
+            <div className="flex lg:flex-row flex-col items-center justify-center gap-4  container ">
                 <div className=" flex  justify-center">
                     <img src="/image/aboutUS/team/Gracila.jpg" className="w-2/3 rounded-md " alt="Gracila" />
                 </div>
@@ -189,7 +189,7 @@ export default function AboutUs() {
                     </ul>
                 </div>
             </div>
-            <div className="flex lg:flex-row-reverse flex-col items-center justify-center gap-1  container ">
+            <div className="flex lg:flex-row-reverse flex-col items-center justify-center gap-4  container ">
                 <div className=" flex  justify-center">
                     <img src="/image/aboutUS/team/Abdessamad.png" className="w-2/3 rounded-md " alt="Gracila" />
                 </div>
