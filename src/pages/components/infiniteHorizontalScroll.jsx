@@ -1,4 +1,4 @@
-
+"use client"
 const InfiniteHorizontalScroll = ({images}) => {
   return (
     <div className="flex overflow-hidden space-x-16 group ">
