@@ -115,31 +115,31 @@ export default function AboutUs() {
         </p>
 
         <ul className="  px-2 lg:text-xl flex flex-col gap-4 font-semibold list-outside leading-loose ">
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line1")}
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line2")}
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line3")}
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line4")}
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line5")}
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line6")}
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line7")}
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line8")}
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line9")}
           </li>
         </ul>
@@ -178,14 +178,14 @@ export default function AboutUs() {
                 </div>
                 <div className=" flex gap-4 flex-col lg:w-1/2  ">
                     <span className=" font-bold text-xl text-[#0149a6] text-center lg:text-left">{t("ourTeamManagement.team.Gracila.fullName")}</span>
-                    <span className=" font-semibold bg-[#0149a6] text-white text-center lg:w-fit p-2">{t("ourTeamManagement.team.Gracila.job")}</span>
+                    <span className=" font-semibold bg-[#0149a6] rounded-sm text-white text-center lg:w-fit p-2">{t("ourTeamManagement.team.Gracila.job")}</span>
                     <ul className="px-2 flex flex-col gap-4  list-outside ">
-                        <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">{t("ourTeamManagement.team.Gracila.experiences.1")}</li>
-                        <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">{t("ourTeamManagement.team.Gracila.experiences.2")}</li>
-                        <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4">{t("ourTeamManagement.team.Gracila.experiences.3")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4">{t("ourTeamManagement.team.Gracila.experiences.4")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4">{t("ourTeamManagement.team.Gracila.experiences.5")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4">{t("ourTeamManagement.team.Gracila.experiences.6")}</li>
+                        <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4  rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.1")}</li>
+                        <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.2")}</li>
+                        <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.3")}</li>
+                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.4")}</li>
+                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.5")}</li>
+                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.6")}</li>
                     </ul>
                 </div>
             </div>
@@ -195,12 +195,12 @@ export default function AboutUs() {
                 </div>
                 <div className=" flex gap-4 flex-col lg:w-1/2  ">
                     <span className=" font-bold text-xl text-[#0149a6] text-center lg:text-left">{t("ourTeamManagement.team.Abdessamad.fullName")}</span>
-                    <span className=" font-semibold bg-[#0149a6] text-white text-center lg:w-fit p-2">{t("ourTeamManagement.team.Abdessamad.job")}</span>
+                    <span className=" font-semibold bg-[#0149a6] rounded-sm text-white text-center lg:w-fit p-2">{t("ourTeamManagement.team.Abdessamad.job")}</span>
                     <ul className="px-2 flex flex-col gap-4  list-outside ">
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4">{t("ourTeamManagement.team.Abdessamad.experiences.1")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4">{t("ourTeamManagement.team.Abdessamad.experiences.2")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4">{t("ourTeamManagement.team.Abdessamad.experiences.3")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4">{t("ourTeamManagement.team.Abdessamad.experiences.4")}</li>
+                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Abdessamad.experiences.1")}</li>
+                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Abdessamad.experiences.2")}</li>
+                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Abdessamad.experiences.3")}</li>
+                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Abdessamad.experiences.4")}</li>
                      
                     </ul>
                 </div>
