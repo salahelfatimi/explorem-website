@@ -119,7 +119,7 @@ export default function AboutUs() {
         </div>
         <div className="flex flex-col gap-4">
             <div className="bg-[#0149a6] py-6" >
-                <InfiniteHorizontalScroll images={[1,2,3,8]} />
+                <InfiniteHorizontalScroll images={[1,2,3,5]} />
                 
             </div>
             <div className=" container">
@@ -131,7 +131,7 @@ export default function AboutUs() {
                 </div>
             </div>
             <div className="bg-[#0149a6] py-6" >
-                <InfiniteHorizontalScroll images={[4,5,6,7]} /> 
+                <InfiniteHorizontalScroll images={[9,8,7]} /> 
             </div>
         </div>
     </div>
