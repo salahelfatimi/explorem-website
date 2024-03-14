@@ -87,13 +87,13 @@ export default function AboutUs() {
         </div>
       </div>
       <div className=" flex flex-col gap-4">
-        <span className="flex  items-center justify-center">
+        <span className="flex  items-center gap-4 justify-center">
           <img
             src="/image/aboutUS/logoHand.png"
-            className="w-24 lg:w-32"
+            className="w-24 lg:w-28"
             alt="Explorem"
           />
-          <p className=" capitalize font-bold text-xl lg:text-3xl text-[#0149a6]">
+          <p className=" capitalize font-bold text-xl lg:text-2xl text-[#0149a6]">
             {t("vedioTitle")}
           </p>
         </span>
@@ -114,7 +114,7 @@ export default function AboutUs() {
           {t("whatWeHaveAchieved.title")}
         </p>
 
-        <ul className="  px-2 lg:text-xl flex flex-col gap-4 font-semibold list-outside leading-loose ">
+        <ul className="  px-2 lg:text-lg flex flex-col gap-4 font-semibold list-outside leading-loose ">
           <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line1")}
           </li>
@@ -167,7 +167,7 @@ export default function AboutUs() {
             className="w-24 lg:w-28"
             alt="Explorem"
           />
-          <p className=" capitalize font-bold text-xl lg:text-3xl text-[#0149a6]">
+          <p className=" capitalize font-bold text-xl lg:text-2xl text-[#0149a6]">
             {t("ourTeamManagement.title")}
           </p>
         </span>
