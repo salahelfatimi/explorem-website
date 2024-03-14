@@ -145,7 +145,7 @@ export default function AboutUs() {
         </ul>
       </div>
       <div className="flex flex-col gap-4">
-        <div className="bg-[#0149a6] py-6">
+        <div className="py-6">
           <InfiniteHorizontalScroll images={[1, 2, 3]} />
         </div>
         <div className=" container">
@@ -156,7 +156,7 @@ export default function AboutUs() {
             </span>
           </div>
         </div>
-        <div className="bg-[#0149a6] py-6">
+        <div className=" py-6">
           <InfiniteHorizontalScroll images={[4, 5, 6]} />
         </div>
       </div>
