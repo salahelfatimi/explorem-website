@@ -6,8 +6,8 @@ export function ImageSection({ images, speed }) {
   
     return (
       <div className='images' style={imagesStyle}>
-        {images.map(({ src, name }) => (
-          <div className='image'>
+        {images.map(({ src, name , }) => (
+          <div key={name} className='image'>
             <img src={src} alt={name} />
           </div>
         ))}
