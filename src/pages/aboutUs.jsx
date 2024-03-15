@@ -163,7 +163,7 @@ export default function AboutUs() {
       </div>
       <div className="flex flex-col gap-4">
         <div className="bg-[#0149a6] py-6">
-          <InfiniteHorizontalScroll images={images1} />
+          <InfiniteHorizontalScroll speed={20000} />
         </div>
         <div className=" container">
           <div className="bg-[#0149A6] rounded-md px-4 py-10  ">
@@ -174,7 +174,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="bg-[#0149a6] py-6">
-          <InfiniteHorizontalScroll images={images2} />
+          <InfiniteHorizontalScroll speed={20000} />
         </div>
       </div>
       <div className=" space-y-12">

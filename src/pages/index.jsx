@@ -27,7 +27,7 @@ export default function Index(){
     return(
         <>
             <span>{t('index')}</span>
-            <InfiniteHorizontalScroll images={images1} />
+            <InfiniteHorizontalScroll  speed={20000} />
 
         </>
     )
