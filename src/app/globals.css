@@ -18,4 +18,15 @@
   .fade-up {
     animation: fade-up 0.5s;
   }
+  @keyframes loop-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
   
+  .loop-scroll {
+    animation: loop-scroll 30s linear infinite;
+  }
