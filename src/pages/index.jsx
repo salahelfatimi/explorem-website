@@ -36,6 +36,11 @@ export default function Index() {
         <div className="bg-[#0149a6] py-6">
           <InfiniteHorizontalScroll images={images} />
         </div>
+        <div>
+            <div>
+                
+            </div>
+        </div>
       </div>
     </>
   );
