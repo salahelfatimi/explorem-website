@@ -12,9 +12,9 @@ export async function getStaticProps({ locale }) {
 
 export default function AboutUs() {
   const { t } = useTranslation("aboutUs");
-
+    
   return (
-    <div className="flex flex-col gap-8 pb-16 bg-[#F5F5F5]">
+    <div className="flex flex-col gap-8 pb-16 bg-[#F5F5F5] ">
       <div className="flex flex-col gap-10">
         <div className=" bg-[url('/image/aboutUS/saction1.jpg')] bg-cover  ">
           <div className=" py-28 ">
@@ -146,7 +146,7 @@ export default function AboutUs() {
       </div>
       <div className="flex flex-col gap-4">
         <div className="bg-[#0149a6] py-6">
-          <InfiniteHorizontalScroll images={[1, 2, 3]} />
+          <InfiniteHorizontalScroll images={[1, 2, 3,4,5,6]} />
         </div>
         <div className=" container">
           <div className="bg-[#0149A6] rounded-md px-4 py-10  ">
@@ -157,7 +157,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="bg-[#0149a6] py-6">
-          <InfiniteHorizontalScroll images={[4, 5, 6]} />
+          <InfiniteHorizontalScroll images={[7,8,9,10,11,12]} />
         </div>
       </div>
       <div className=" space-y-12">
@@ -167,7 +167,7 @@ export default function AboutUs() {
             className="w-24 lg:w-28"
             alt="Explorem"
           />
-          <p className=" capitalize font-bold text-xl lg:text-2xl text-[#0149a6]">
+          <p className=" capitalize font-bold text-xl lg:text-xl text-[#0149a6]">
             {t("ourTeamManagement.title")}
           </p>
         </span>
