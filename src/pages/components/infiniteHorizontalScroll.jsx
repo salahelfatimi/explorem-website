@@ -11,7 +11,7 @@ const InfiniteHorizontalScroll = ({images}) => {
                 ))
             }
         </div>
-        <div className="flex space-x-4 lg:animate-loop-scroll " aria-hidden="true">
+        <div className="flex space-x-4 animate-loop-scroll " aria-hidden="true">
             {
                 images?.map((ele,index)=>(
                     <div key={index}>
