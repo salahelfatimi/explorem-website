@@ -11,8 +11,25 @@ export async function getStaticProps({ locale }) {
 }
 
 export default function AboutUs() {
-  const { t } = useTranslation("aboutUs");
-    
+    const { t } = useTranslation("aboutUs");
+    const images1=[
+        {src:"/image/aboutUS/slideLeft/image1.jpg"},
+        {src:"/image/aboutUS/slideLeft/image2.jpg"},
+        {src:"/image/aboutUS/slideLeft/image3.jpg"},
+        {src:"/image/aboutUS/slideLeft/image4.jpg"},
+        {src:"/image/aboutUS/slideLeft/image5.jpg"},
+        {src:"/image/aboutUS/slideLeft/image6.jpg"},
+
+    ]
+    const images2=[
+        {src:"/image/aboutUS/slideLeft/image7.jpg"},
+        {src:"/image/aboutUS/slideLeft/image8.jpg"},
+        {src:"/image/aboutUS/slideLeft/image9.jpg"},
+        {src:"/image/aboutUS/slideLeft/image10.jpg"},
+        {src:"/image/aboutUS/slideLeft/image11.jpg"},
+        {src:"/image/aboutUS/slideLeft/image12.jpg"},
+
+    ]
   return (
     <div className="flex flex-col gap-8 pb-16 bg-[#F5F5F5] ">
       <div className="flex flex-col gap-10">
@@ -146,7 +163,7 @@ export default function AboutUs() {
       </div>
       <div className="flex flex-col gap-4">
         <div className="bg-[#0149a6] py-6">
-          <InfiniteHorizontalScroll images={[1, 2, 3,4,5,6]} />
+          <InfiniteHorizontalScroll images={images1} />
         </div>
         <div className=" container">
           <div className="bg-[#0149A6] rounded-md px-4 py-10  ">
@@ -157,7 +174,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="bg-[#0149a6] py-6">
-          <InfiniteHorizontalScroll images={[7,8,9,10,11,12]} />
+          <InfiniteHorizontalScroll images={images2} />
         </div>
       </div>
       <div className=" space-y-12">

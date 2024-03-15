@@ -1,5 +1,8 @@
 {
-    "index":"Startseite"
-    
-   
+    "title":{
+        "line1":"Wir machen",
+        "line2":"einen Unterschied.",
+        "line3":"Wir lassen",
+        "line4":"es geschehen."
+    }
 }
