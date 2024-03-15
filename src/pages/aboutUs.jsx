@@ -12,24 +12,7 @@ export async function getStaticProps({ locale }) {
 
 export default function AboutUs() {
   const { t } = useTranslation("aboutUs");
-  const images1 = [
-    '/image/aboutUS/slideLeft/image1.jpg',
-    '/image/aboutUS/slideLeft/image2.jpg',
-    '/image/aboutUS/slideLeft/image3.jpg',
-    '/image/aboutUS/slideLeft/image4.jpg',
-    '/image/aboutUS/slideLeft/image5.jpg',
-    '/image/aboutUS/slideLeft/image6.jpg',
     
-  ];
-  const images2 = [
-    '/image/aboutUS/slideLeft/image7.jpg',
-  '/image/aboutUS/slideLeft/image8.jpg',
-    '/image/aboutUS/slideLeft/image9.jpg',
-    '/image/aboutUS/slideLeft/image10.jpg',
-    '/image/aboutUS/slideLeft/image11.jpg',
-    '/image/aboutUS/slideLeft/image12.jpg',
-    
-  ];
   return (
     <div className="flex flex-col gap-8 pb-16 bg-[#F5F5F5] ">
       <div className="flex flex-col gap-10">
@@ -163,7 +146,7 @@ export default function AboutUs() {
       </div>
       <div className="flex flex-col gap-4">
         <div className="bg-[#0149a6] py-6">
-          <InfiniteHorizontalScroll speed={20000} />
+          <InfiniteHorizontalScroll images={[1, 2, 3,4,5,6]} />
         </div>
         <div className=" container">
           <div className="bg-[#0149A6] rounded-md px-4 py-10  ">
@@ -174,7 +157,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="bg-[#0149a6] py-6">
-          <InfiniteHorizontalScroll speed={20000} />
+          <InfiniteHorizontalScroll images={[7,8,9,10,11,12]} />
         </div>
       </div>
       <div className=" space-y-12">
