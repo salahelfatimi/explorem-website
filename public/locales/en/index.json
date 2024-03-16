@@ -6,7 +6,43 @@
         "line4":"Happen ."
 
         
-    }
+    },
+    "grids": [
+        {
+          "id": 1,
+          "title": "Training/Formation",
+          "description": "German Course and Nursing Tutorial"
+        },
+        {
+          "id": 2,
+          "title": "Job Placement",
+          "description": "Vocational Training Placement"
+        },
+        {
+          "id": 3,
+          "title": "Project Management",
+          "description": "Effective project management solutions"
+        },
+        {
+          "id": 4,
+          "title": "Degree Recognition",
+          "description": "Ensure your degrees are recognized"
+        },
+        {
+          "id": 5,
+          "title": "Professional Qualification",
+          "description": "Enhance your professional skills"
+          
+        },
+        {
+          "id": 6,
+          "title": "Onboarding / Integration / Relocation",
+          "description": "Streamlined processes, including Visa assistance"
+          
+        }
+      ],
+      "vedioTitle":"Who We Are"
+
     
       
       

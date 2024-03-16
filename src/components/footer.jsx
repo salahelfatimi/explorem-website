@@ -4,26 +4,39 @@ export default function Footer() {
   return (
     <>
       <div className="bg-[#22242B] py-20 container gap-8 flex flex-col lg:flex-row items-center justify-between">
-        <div className=" flex flex-col   gap-8">
+        <div className=" flex flex-col   gap-4">
           <span className="flex flex-col lg:flex-row text-center items-center gap-2">
-            <MapPin size={25} className=" stroke-[#0149A6]"/>
-            <p className=" font-medium text-white">
+            <MapPin size={30} className=" stroke-[#0149A6]"/>
+            <a href="https://maps.app.goo.gl/djcimpjqdNjy9pcZ6" target="_blank" className=" font-bold text-white">
               6 Rue des Vieux Marrakchis, Bureau Nr 7 Gueliz, Marrakech, Morocco
-            </p>
+            </a>
           </span>
           <span className="flex flex-col lg:flex-row text-center items-center gap-2">
-            <Phone size={25} className=" stroke-[#0149A6]"/>
-            <p className=" font-medium text-white">(+212) 6 02 31 48 04</p>
+            <Phone size={30} className=" stroke-[#0149A6]"/>
+            <a href="tel:+212650-656897" className=" font-bold text-white">(+212) 6 50 65 68 97</a>
           </span>
-          <span className="flex flex-col lg:flex-row text-center items-center gap-2">
-            <Clock size={25} className=" stroke-[#0149A6]"/>
-            <p className=" font-medium text-white">Monday - Friday: 8 AM - 5 PM </p>
+          <span className="flex  flex-col lg:flex-row text-center items-center gap-2">
+            <Clock size={30} className=" stroke-[#0149A6]"/>
+            <p className=" font-bold text-white ">Monday - Friday: 8 AM - 5 PM </p>
           </span>
           <span className="flex gap-6 justify-between lg:justify-normal">
-            <Facebook size={25} className=" stroke-white"/>
-            <Instagram size={25} className=" stroke-white"/>
-            <Linkedin size={25} className=" stroke-white"/>
-            <Youtube size={25} className=" stroke-white  "/>
+            <a href="https://web.facebook.com/ExploremSARL" target="_blank" className="bg-[#0149a6]   p-2 rounded-full">
+                <Facebook size={25} className=" stroke-white"/>
+
+            </a>
+            <a href="https://www.youtube.com/@Explorem-mw5rq" target="_blank" className="bg-red-500   p-2 rounded-full">
+                <Youtube size={25} className=" stroke-white"/>
+
+            </a>
+            <a href="https://www.linkedin.com/in/gracila-vacaro-ucag-b14136127/" target="_blank" className="bg-[#0077b5]   p-2 rounded-full">
+                <Linkedin size={25} className=" stroke-white"/>
+
+            </a>
+            <a href="https://www.instagram.com/explorem21/" target="_blank" className="bg-[#f7543e]   p-2 rounded-full">
+                <Instagram size={25} className=" stroke-white"/>
+
+            </a>
+            
           </span>
         </div>
         <div className="flex flex-col gap-4 w-full lg:w-auto">

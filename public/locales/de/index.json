@@ -1,8 +1,41 @@
 {
     "title":{
-        "line1":"Wir machen",
-        "line2":"einen Unterschied.",
-        "line3":"Wir lassen",
-        "line4":"es geschehen."
-    }
+        "line1":"Wir machen einen ",
+        "line2":"Unterschied . ",
+        "line3":"Wir lassen es ",
+        "line4":"geschehen . "
+    },
+    "grids": [
+        {
+          "id": 1,
+          "title": "Training / Formation",
+          "description": "Deutschkurs und Pflegeunterricht"
+        },
+        {
+          "id": 2,
+          "title": "Arbeitsvermittlung",
+          "description": "Vermittlung von beruflicher Ausbildung"
+        },
+        {
+          "id": 3,
+          "title": "Projektmanagement",
+          "description": "Effektive Lösungen im Projektmanagement"
+        },
+        {
+          "id": 4,
+          "title": "Anerkennung von Abschlüssen",
+          "description": "Stellen Sie sicher, dass Ihre Abschlüsse anerkannt sind"
+        },
+        {
+          "id": 5,
+          "title": "Berufliche Qualifikation",
+          "description": "Verbessern Sie Ihre beruflichen Fähigkeiten"
+        },
+        {
+          "id": 6,
+          "title": "Onboarding / Integration / Umzug",
+          "description": "Effiziente Prozesse, einschließlich Visa-Unterstützung"
+        }
+    ],
+    "vedioTitle": "Wer wir sind"
 }
