@@ -1,77 +1,77 @@
 {
-  "aboutUs": "Über uns",
-  "aboutUsSlogen": "Ein paar Gründe, warum Sie uns wählen sollten",
-  "aboutUsText": {
-      "line1": "Explorem ist ein Expertenteam, das Dienstleistungen im Zusammenhang mit",
-      "line2": "Personalwesen, Sprache und Pflegebildung sowie Coaching für Rekrutierung, Management und Schulung",
-      "line3": "sowohl in Marokko als auch im Ausland anbietet.",
-      "line4": "Was uns von anderen unterscheidet, ist, wie wir unsere Kandidaten behandeln und unterstützen, um ihre Karrierechancen zu schaffen und auf dem globalen Markt qualifiziert zu sein.",
-      "line5": "Gegründet im Jahr 2021 von den derzeitigen beiden Geschäftsführern, Herrn Abdessamad Aboul Ossoud und Dr. Gracila V. Ucag. Beide haben wichtige Erfahrungen in der Zusammenarbeit mit ausländischen Geschäftspartnern, um qualifizierte Fachleute bei ihrem Sprung in ihren neuen Traumjob zu unterstützen."
-  },
-  "slogen1": {
-      "line1": "„Machen Sie einen Sprung zu Ihrem Traumjob.",
-      "line2": "Schaffen Sie mit uns Ihre Karrierechancen, um Ihre Ziele wahr werden zu lassen!“"
-  },
-  "grid": {
-      "grid1": {
-          "title": "Vision",
-          "text": "Die Vision von Explorem besteht darin, als einflussreicher und renommierter Anbieter zuverlässiger Dienstleistungen im Bereich Personalwesen, Management und Rekrutierungs-Coaching anerkannt zu werden durch Exzellenz in Ausbildung, wissenschaftlicher Tätigkeit und Forschung und Förderung des Berufs jedes Kandidaten."
-      },
-      "grid2": {
-          "title": "Mission",
-          "text": "Zuverlässige und transparente Dienstleistungen im Personalwesen sowie hervorragende berufliche Schulungen und Coachings im Bereich Rekrutierung und Management bereitzustellen."
-      }
-  },
-  "WhyChooseUs": {
-      "title": "Warum uns wählen?",
-      "line1": "Wir sind engagiert, zuverlässig und transparent bei der Bereitstellung exzellenter Dienstleistungen für jeden Kunden und Kandidaten, den wir haben.",
-      "line2": "Gemeinsam schaffen wir Chancen; wir führen, unterstützen und motivieren Kandidaten, ihre Karriereziele zu erreichen.",
-      "line3": "Wir stellen sicher, dass wir einen Unterschied in den von uns erbrachten Dienstleistungen machen, und wir setzen dies auf unsere eigene professionelle Art und Weise um.",
-      "line4": "Wir glauben daran, die Grenzen des Möglichen zu verschieben. Wir sind ein Team von Experten, das sich verpflichtet hat, herausragende Ergebnisse zu liefern."
-  },
-  "vedioTitle": "Wer wir sind",
-  "whatWeHaveAchieved": {
-      "title": "Was haben wir erreicht?",
-      "line1": "Präsentierten unser Programm mehr als 2.000+ Studenten-Pflegekräften und Absolventen in ganz Marokko.",
-      "line2": "800+ Studenten und Pflegekräfte haben Verträge mit unserem vorherigen Pflegeprogramm unterzeichnet.",
-      "line3": "Gegründete Schulpartnerschaften in verschiedenen Städten Marokkos.",
-      "line4": "Von 2021 bis 2022 wurden 95 Pflegekandidaten, die sich für den Wissenstest qualifizierten, endgültige Defizitbescheide ausgestellt, wobei 2 eine direkte Anerkennung erhielten.",
-      "line5": "Erleichterten die Umsiedlung von mehr als 70 Kandidaten nach Deutschland durch unser Programm.",
-      "line6": "Im Februar 2023 haben wir Partnerschaften mit deutschen Arbeitgebern geschlossen, um 34 neu absolvierten Pflegekandidaten Stipendien anzubieten, einschließlich kostenloser B1- und B2-Sprachkurse, monatlicher Stipendien, Prüfungsgebühren, Anerkennungs- und Qualifikationsgebühren, Visakosten und anderer Umzugskosten.",
-      "line7": "Von Februar bis März 2023 haben 54 unserer aktiven Kandidaten direkt Arbeitsverträge mit deutschen Arbeitgebern unterzeichnet.",
-      "line8": "Erreichte eine Erfolgsquote von 100% für Unternehmensstipendiaten, die im Juli 2023 den B1-Kurs vor Ort besuchten, die Prüfung bestanden und Sprachzertifikate erhielten.",
-      "line9": "Im Jahr 2023 wurden 15 Pflegekandidaten umgesiedelt; und 23 andere Kandidaten erhielten ihren Defizitbescheid über die Anerkennung ihres Diploms."
-
-  },
-  "slogen2": {
-      "line1": "„Wir glauben daran, Grenzen des Möglichen zu verschieben.",
-      "line2": "Wir sind ein Team von Experten, das sich verpflichtet hat, herausragende Ergebnisse zu liefern.“"
-  },
-  "ourTeamManagement": {
-      "title": "Unser Team - Management",
-      "team": {
-          "Gracila": {
-              "fullName": "GRACILA V. UCAG, RN, MAN, PHD",
-              "job": "Mitbegründerin/Geschäftsführerin",
-              "experiences": {
-                  "1": "Bachelor of Science in Nursing (BSN)",
-                  "2": "Master of Arts in Nursing (MAN) mit Spezialisierung auf Erwachsenen- und Gemeindekrankenpflege",
-                  "3": "Doktor der Philosophie (PhD), Bildungsmanagement, mit Spezialisierung auf Pflegeausbildung",
-                  "4": "Philippinische registrierte Krankenschwester",
-                  "5": "Freiberufliche Krankenpflegeprofessorin",
-                  "6": "Arbeitet seit 2004 in der Krankenpflegeausbildung/-formation/-schulung mit Schwerpunkt auf medizinisch-chirurgischer Pflege, Pflegeforschung und evidenzbasierter Praxis (12 Jahre an der Universität auf den Philippinen und 5 Jahre am UAE-managierten College, Morocco Campus)."
-              }
-          },
-          "Abdessamad": {
-              "fullName": "ABDESSAMAD ABOUL OSSOUD",
-              "job": "Mitbegründer/Geschäftsführer",
-              "experiences": {
-                  "1": "Diplom in Optik Optometrie",
-                  "2": "Marokko Tourismus - Professioneller nationaler offizieller Reiseleiter",
-                  "3": "Audiovisueller und professioneller Fotografie-Set-Manager seit 1995",
-                  "4": "Übersetzer: Arabisch, Französisch, Englisch, Russisch und Spanisch"
-              }
-          }
-      }
-  }
+    "aboutUs": "Über uns",
+    "aboutUsSlogen": "Ein paar Gründe, uns zu wählen",
+    "aboutUsText": {
+        "line1": "Explorem ist ein Team von Experten, das Dienstleistungen im Zusammenhang mit ",
+        "line2": "Personalwesen, Sprache und Ausbildung im Bereich Pflege sowie Coaching in den Bereichen Rekrutierung, Management und Schulung ",
+        "line3": "anbietet, sowohl in Marokko als auch im Ausland.",
+        "line4": "Was uns von anderen unterscheidet, ist, wie wir unsere Kandidaten behandeln und unterstützen, um ihre Karrierechancen zu schaffen und auf dem globalen Markt qualifiziert zu sein.",
+        "line5": "Gegründet im Jahr 2021 von den derzeitigen beiden Geschäftsführern, Herrn Abdessamad Aboul Ossoud und Dr. Gracila V. Ucag. Beide haben wesentliche Erfahrungen in der Zusammenarbeit mit ausländischen Geschäftspartnern, um qualifizierten Fachleuten zu helfen, den Schritt zu ihrem neuen Traumjob zu machen."
+    },
+    "slogen1": {
+        "line1": "„Machen Sie einen Sprung zu Ihrem Traumjob.",
+        "line2": "Schaffen Sie mit uns Ihre Karrierechancen, um Ihre Ziele wahr werden zu lassen!“"
+    },
+    "grid": {
+        "grid1": {
+            "title": "Vision",
+            "text": "Die Vision von Explorem besteht darin, als einflussreicher und renommierter Anbieter von zuverlässigen Dienstleistungen im Bereich Personalwesen, Management und Rekrutierung durch Exzellenz in Ausbildung, wissenschaftlicher Tätigkeit und Forschung sowie Förderung der Berufe jedes Kandidaten anerkannt zu werden."
+        },
+        "grid2": {
+            "title": "Mission",
+            "text": "Zuverlässige und transparente Dienstleistungen im Bereich Personalwesen sowie exzellente professionelle Schulungen und Coachings in den Bereichen Rekrutierung und Management bereitzustellen."
+        }
+    },
+    "WhyChooseUs": {
+        "title": "Warum uns wählen?",
+        "line1": "Wir sind engagiert, zuverlässig und transparent bei der Bereitstellung ausgezeichneter Dienstleistungen für jeden Kunden und Kandidaten, den wir haben.",
+        "line2": "Gemeinsam schaffen wir Möglichkeiten; wir leiten, unterstützen und motivieren Kandidaten, damit ihre Karriereziele wahr werden.",
+        "line3": "Wir sorgen dafür, dass wir einen Unterschied in den von uns erbrachten Dienstleistungen machen, und wir setzen es auf unsere eigene professionelle Weise um.",
+        "line4": "Wir glauben daran, die Grenzen des Möglichen zu erweitern. Wir sind ein Team von Experten, das sich verpflichtet hat, herausragende Ergebnisse zu liefern."
+    },
+    "vedioTitle": "Wer wir sind",
+    "whatWeHaveAchieved": {
+        "title": "Was wir erreicht haben?",
+        "line1": "Unser Programm wurde mehr als 2.000+ Studentenpflegern und Absolventen in ganz Marokko vorgestellt.",
+        "line2": "800+ Studenten und Pfleger haben Verträge mit unserem Programm für qualifizierte Pfleger unterzeichnet.",
+        "line3": "Wir haben die Partnerschaft mit Pflegeschulen aus verschiedenen Städten Marokkos (Rabat, Casablanca, Marrakesch, Agadir, Tetouan, Oujda) aufrechterhalten.",
+        "line4": "Im Jahr 2024 starten wir unser Stipendienprogramm für qualifizierte Pfleger, das einen KOSTENLOSEN Deutschkurs, Rekrutierungs- und Umzugsdienste umfasst.",
+        "line5": "Explorem-Geschäftsführer, Lehrer, Studenten und Kandidaten wurden im Februar 2024 im ZDF heute (deutsches Fernsehen) interviewt und vorgestellt.",
+        "line6": "Im Jahr 2023 erhielten 20 Kandidaten eine Vorabzustimmung für das Visum; 20 aktive Kandidaten zogen nach Deutschland um, und 23 andere Kandidaten erhielten ihren Defizitbescheid für die Anerkennung ihres Diploms.",
+        "line7": "Pflegekandidaten von Explorem, die nach Deutschland umgezogen sind, wurden in der WDR Lokalzeit aus Köln vorgestellt.",
+        "line8": "Im Februar 2023 erhielten in Zusammenarbeit mit deutschen Arbeitgebern 34 neu graduierte Pflegekandidaten Stipendien in unserem Programm. Dies umfasst einen kostenlosen B1- und B2-Sprachkurs, monatliches Stipendium, Prüfungsgebühren, Anerkennungs- und Qualifikationsgebühren, Visakosten und andere Umzugskosten.",
+        "line9": "Von Februar bis März 2023 unterschrieben 54 unserer aktiven Kandidaten direkt ihre Arbeitsverträge mit den deutschen Arbeitgebern.",
+        "line10": "Im Zeitraum von 2021 bis 2022 wurden mehr als 100 Pflegekandidaten, die einen endgültigen Defizitbescheid erhielten und zur Wissensprüfung zugelassen wurden, umgesiedelt; 2 Kandidaten mit direkter Anerkennung; und mehr als 80 Kandidaten, die Empfänger des Programms waren, wurden nach Deutschland umgesiedelt."
+    },
+    "slogen2": {
+        "line1": "„Wir glauben daran, die Grenzen des Möglichen zu erweitern. " ,
+        "line2": "  Wir sind ein Team von Experten, das sich verpflichtet hat, herausragende Ergebnisse zu liefern.“ "
+    },
+    "ourTeamManagement": {
+        "title": "Unser Team – Management",
+        "team": {
+            "Gracila": {
+                "fullName": "GRACILA V. UCAG, RN, MAN, PHD",
+                "job": "Gründerin/Geschäftsführerin",
+                "experiences": {
+                    "1": "Bachelor of Science in Nursing (BSN)",
+                    "2": "Master of Arts in Nursing (MAN) mit Schwerpunkt auf Erwachsenen- und Gemeindekrankenpflege",
+                    "3": "Doktor der Philosophie (PhD) in Bildungsmanagement mit Schwerpunkt auf Pflegeausbildung",
+                    "4": "Philippinische registrierte Krankenschwester",
+                    "5": "Freiberufliche Krankenpflegeprofessorin",
+                    "6": "Arbeitet seit 2004 in der Krankenpflegeausbildung/-bildung/-training mit Spezialisierung auf medizinisch-chirurgische Pflege, Pflegeforschung und evidenzbasierte Praxis (12 Jahre an der Universität auf den Philippinen und 5 Jahre in einem von den VAE verwalteten College, Marokko-Campus)."
+                }
+            },
+            "Abdessamad": {
+                "fullName": "ABDESSAMAD ABOUL OSSOUD",
+                "job": "Gründer/Geschäftsführer",
+                "experiences": {
+                    "1": "Diplom in Optik Optometrie",
+                    "2": "Marokko-Tourismus - Professioneller nationaler offizieller Reiseführer ",
+                    "3": "Audiovisueller und professioneller Fotografie-Ortsmanager seit 1995 ",
+                    "4": "Übersetzer: Arabisch, Französisch, Englisch, Russisch und Spanisch "
+                }
+            }
+        }
+    }
 }

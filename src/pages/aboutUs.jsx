@@ -2,6 +2,7 @@
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import InfiniteHorizontalScroll from "./components/infiniteHorizontalScroll";
+import { Instagram, Link } from "react-feather";
 export async function getStaticProps({ locale }) {
   return {
     props: {
@@ -11,33 +12,37 @@ export async function getStaticProps({ locale }) {
 }
 
 export default function AboutUs() {
-    const { t } = useTranslation("aboutUs");
-    const images1=[
-        {src:"/image/aboutUS/slideLeft/image1.jpg"},
-        {src:"/image/aboutUS/slideLeft/image2.jpg"},
-        {src:"/image/aboutUS/slideLeft/image3.jpg"},
-        {src:"/image/aboutUS/slideLeft/image4.jpg"},
-        {src:"/image/aboutUS/slideLeft/image5.jpg"},
-        {src:"/image/aboutUS/slideLeft/image6.jpg"},
-
-    ]
-    const images2=[
-        {src:"/image/aboutUS/slideLeft/image7.jpg"},
-        {src:"/image/aboutUS/slideLeft/image8.jpg"},
-        {src:"/image/aboutUS/slideLeft/image9.jpg"},
-        {src:"/image/aboutUS/slideLeft/image10.jpg"},
-        {src:"/image/aboutUS/slideLeft/image11.jpg"},
-        {src:"/image/aboutUS/slideLeft/image12.jpg"},
-
-    ]
+  const { t } = useTranslation("aboutUs");
+  const images1 = [
+    { src: "/image/aboutUS/slideLeft/image1.jpg" },
+    { src: "/image/aboutUS/slideLeft/image2.jpg" },
+    { src: "/image/aboutUS/slideLeft/image3.jpg" },
+    { src: "/image/aboutUS/slideLeft/image4.jpg" },
+    { src: "/image/aboutUS/slideLeft/image5.jpg" },
+    { src: "/image/aboutUS/slideLeft/image6.jpg" },
+  ];
+  const images2 = [
+    { src: "/image/aboutUS/slideLeft/image7.jpg" },
+    { src: "/image/aboutUS/slideLeft/image8.jpg" },
+    { src: "/image/aboutUS/slideLeft/image9.jpg" },
+    { src: "/image/aboutUS/slideLeft/image10.jpg" },
+    { src: "/image/aboutUS/slideLeft/image11.jpg" },
+    { src: "/image/aboutUS/slideLeft/image12.jpg" },
+  ];
   return (
     <div className="flex flex-col gap-8 pb-16 bg-[#F5F5F5] ">
       <div className="flex flex-col gap-10">
-        <div className=" bg-[url('/image/aboutUS/saction1.jpg')] bg-cover  ">
-          <div className=" py-28 ">
-            <div className="bg-[#0149A6] w-full items-center flex flex-col  gap-2 capitalize  p-4 text-white  ">
-              <h1 className="lg:text-4xl text-xl font-bold">{t("aboutUs")}</h1>
-              <span className="lg:text-2xl ">{t("aboutUsSlogen")}</span>
+        <div className="relative">
+          <img
+            src="/image/aboutUS/saction1.jpg"
+            className="h-auto max-w-full"
+            alt="..."
+          />
+
+          <div className="absolute inset-0 flex justify-center items-center">
+            <div className="bg-[#0149A6] w-full items-center flex flex-col gap-2 capitalize p-1 lg:p-4 text-white">
+              <h1 className="lg:text-4xl text-md font-bold">{t("aboutUs")}</h1>
+              <span className=" text-sm lg:text-2xl">{t("aboutUsSlogen")}</span>
             </div>
           </div>
         </div>
@@ -54,7 +59,7 @@ export default function AboutUs() {
           <p>{t("aboutUsText.line5")}</p>
         </span>
       </div>
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full container gap-4 ">
+      <div className="flex flex-col lg:flex-row items-center justify-between w-full container gap-4 ">
         <span className="bg-[#0149A6] text-white py-10 px-2 rounded-lg lg:w-1/2 font-mono font-bold lg:text-2xl md:text-xl text-lg text-center">
           <p>{t("slogen1.line1")}</p>
           <p>{t("slogen1.line2")}</p>
@@ -144,20 +149,34 @@ export default function AboutUs() {
           <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line4")}
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+          <li className=" border-l-4 border-[#0149a6]  bg-white p-2 pl-4 flex flex-col gap-2 rounded-r-sm">
             {t("whatWeHaveAchieved.line5")}
+            <div className="flex gap-4 items-center ">
+            
+              <a arget="_blank" href="https://www.instagram.com/reel/C3lKOTfAwz3/?igsh=MTRkejE5YWY1bDViMA=="><Instagram size={30} className="  stroke-[#fff] rounded-md p-1 bg-[#f7543e]" /></a>
+              <a arget="_blank" href="https://www.zdf.de/nachrichten/politik/ausland/fachkraeftemangel-pflegepersonal-marokko-100.html"><Link size={30} className=" stroke-[#fff] rounded-md p-1 bg-[#0149a6]" /></a>
+    
+            </div>
           </li>
           <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line6")}
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+          <li className=" border-l-4 border-[#0149a6]  bg-white p-2 pl-4 flex flex-col gap-2 rounded-r-sm">
             {t("whatWeHaveAchieved.line7")}
+            <div className="flex gap-4 items-center ">
+            
+            <a arget="_blank" href="https://www1.wdr.de/lokalzeit/fernsehen/koeln/pflegeinternat-gegen-pflegekraeftemangel-im-bergischen--100.html"><Link size={30} className=" stroke-[#fff] rounded-md p-1 bg-[#0149a6]" /></a>
+  
+          </div>
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm"> 
             {t("whatWeHaveAchieved.line8")}
           </li>
           <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line9")}
+          </li>
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+            {t("whatWeHaveAchieved.line10")}
           </li>
         </ul>
       </div>
@@ -189,41 +208,75 @@ export default function AboutUs() {
           </p>
         </span>
         <div className=" space-y-16">
-            <div className="flex lg:flex-row flex-col items-center justify-center gap-4  container ">
-                <div className=" flex  justify-center">
-                    <img src="/image/aboutUS/team/Gracila.jpg" className="w-2/3 rounded-md " alt="Gracila" />
-                </div>
-                <div className=" flex gap-4 flex-col lg:w-1/2  ">
-                    <span className=" font-bold text-xl text-[#0149a6] text-center lg:text-left">{t("ourTeamManagement.team.Gracila.fullName")}</span>
-                    <span className=" font-semibold bg-[#0149a6] rounded-sm text-white text-center lg:w-fit p-2">{t("ourTeamManagement.team.Gracila.job")}</span>
-                    <ul className="px-2 flex flex-col gap-4  list-outside ">
-                        <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4  rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.1")}</li>
-                        <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.2")}</li>
-                        <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.3")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.4")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.5")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Gracila.experiences.6")}</li>
-                    </ul>
-                </div>
+          <div className="flex lg:flex-row flex-col items-center justify-center gap-4  container ">
+            <div className=" flex  justify-center">
+              <img
+                src="/image/aboutUS/team/Gracila.jpg"
+                className="w-2/3 rounded-md "
+                alt="Gracila"
+              />
             </div>
-            <div className="flex lg:flex-row-reverse flex-col items-center justify-center gap-4  container ">
-                <div className=" flex  justify-center">
-                    <img src="/image/aboutUS/team/Abdessamad.png" className="w-2/3 rounded-md " alt="Gracila" />
-                </div>
-                <div className=" flex gap-4 flex-col lg:w-1/2  ">
-                    <span className=" font-bold text-xl text-[#0149a6] text-center lg:text-left">{t("ourTeamManagement.team.Abdessamad.fullName")}</span>
-                    <span className=" font-semibold bg-[#0149a6] rounded-sm text-white text-center lg:w-fit p-2">{t("ourTeamManagement.team.Abdessamad.job")}</span>
-                    <ul className="px-2 flex flex-col gap-4  list-outside ">
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Abdessamad.experiences.1")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Abdessamad.experiences.2")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Abdessamad.experiences.3")}</li>
-                        <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">{t("ourTeamManagement.team.Abdessamad.experiences.4")}</li>
-                     
-                    </ul>
-                </div>
+            <div className=" flex gap-4 flex-col lg:w-1/2  ">
+              <span className=" font-bold text-xl text-[#0149a6] text-center lg:text-left">
+                {t("ourTeamManagement.team.Gracila.fullName")}
+              </span>
+              <span className=" font-semibold bg-[#0149a6] rounded-sm text-white text-center lg:w-fit p-2">
+                {t("ourTeamManagement.team.Gracila.job")}
+              </span>
+              <ul className="px-2 flex flex-col gap-4  list-outside ">
+                <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4  rounded-r-sm">
+                  {t("ourTeamManagement.team.Gracila.experiences.1")}
+                </li>
+                <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+                  {t("ourTeamManagement.team.Gracila.experiences.2")}
+                </li>
+                <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+                  {t("ourTeamManagement.team.Gracila.experiences.3")}
+                </li>
+                <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+                  {t("ourTeamManagement.team.Gracila.experiences.4")}
+                </li>
+                <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+                  {t("ourTeamManagement.team.Gracila.experiences.5")}
+                </li>
+                <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+                  {t("ourTeamManagement.team.Gracila.experiences.6")}
+                </li>
+              </ul>
             </div>
+          </div>
+          <div className="flex lg:flex-row-reverse flex-col items-center justify-center gap-4  container ">
+            <div className=" flex  justify-center">
+              <img
+                src="/image/aboutUS/team/Abdessamad.png"
+                className="w-2/3 rounded-md "
+                alt="Gracila"
+              />
+            </div>
+            <div className=" flex gap-4 flex-col lg:w-1/2  ">
+              <span className=" font-bold text-xl text-[#0149a6] text-center lg:text-left">
+                {t("ourTeamManagement.team.Abdessamad.fullName")}
+              </span>
+              <span className=" font-semibold bg-[#0149a6] rounded-sm text-white text-center lg:w-fit p-2">
+                {t("ourTeamManagement.team.Abdessamad.job")}
+              </span>
+              <ul className="px-2 flex flex-col gap-4  list-outside ">
+                <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+                  {t("ourTeamManagement.team.Abdessamad.experiences.1")}
+                </li>
+                <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+                  {t("ourTeamManagement.team.Abdessamad.experiences.2")}
+                </li>
+                <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+                  {t("ourTeamManagement.team.Abdessamad.experiences.3")}
+                </li>
+                <li className="  border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
+                  {t("ourTeamManagement.team.Abdessamad.experiences.4")}
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        
       </div>
     </div>
   );

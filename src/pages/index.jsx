@@ -69,7 +69,7 @@ const grids = [
           <span className="flex  items-center gap-4 justify-center">
             <img
               src="/image/aboutUS/logoHand.png"
-              className="w-24 lg:w-28"
+              className="w-20 lg:w-24"
               alt="Explorem"
             />
             <p className=" capitalize font-bold text-xl lg:text-2xl text-[#0149a6]">
