@@ -46,13 +46,13 @@ export default function Navbar() {
                 </Link>
               </div>
             ))}
-            <a
-              className="flex items-center  gap-2 bg-[#0149A6] py-2 px-2 text-white rounded-full font-mediumt"
-              href="tel:+212602314804"
-            >
-              <Phone size={20} />
-              <span className=" hidden xl:block">(+212) 6 02 31 48 04</span>
-            </a>
+              <a
+                className="flex items-center  gap-2 bg-[#0149A6] py-2 px-2 text-white rounded-full font-mediumt"
+                href="tel:+212650-656897"
+              >
+                <Phone size={20} />
+                  (+212) 6 50 65 68 97
+              </a>
             <ChangeLungage />
             <button className="bg-[#0149A6] rounded-full p-1">
               <Moon size={25} className="  stroke-white   " />
@@ -102,8 +102,8 @@ export default function Navbar() {
                 href="tel:+212650-656897"
               >
                 <Phone size={20} />
-                (+212) 6 50 65 68 97
-              </a>
+                  (+212) 6 50 65 68 97
+                </a>
               <ChangeLungage setOpen={setOpen} open={open} />
               <button className="bg-[#0149A6] rounded-full p-1">
                 <Moon size={25} className="  stroke-white   " />
