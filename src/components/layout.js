@@ -1,5 +1,5 @@
-import Navbar from "./navbar";
-import Footer from "./footer";
+import Navbar from "./navbar/Navbar";
+import Footer from "./footer/Footer";
 import Head from "next/head";
 
 export default function Layout({ children }) {
@@ -18,7 +18,6 @@ export default function Layout({ children }) {
           content="Explorem - Experts in HR, linguistic & nursing training, recruitment, and coaching. Helping candidates excel globally. Founded in 2021."
           key="desc"
         />
-
       </Head>
       <Navbar />
       <main className="pt-24 mb-auto">{children}</main>

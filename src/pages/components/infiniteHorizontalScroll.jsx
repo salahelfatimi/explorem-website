@@ -2,7 +2,7 @@
 const InfiniteHorizontalScroll = ({images}) => {
   return (
     <div className="flex overflow-hidden space-x-4 group ">
-        <div className="flex space-x-4 animate-loop-scroll ">
+        <div className="flex space-x-4  ">
             {
                 images?.map((ele,index)=>(
                     <div key={index}>
@@ -11,7 +11,7 @@ const InfiniteHorizontalScroll = ({images}) => {
                 ))
             }
         </div>
-        <div className="flex space-x-4 animate-loop-scroll " aria-hidden="true">
+        <div className="flex space-x-4  " aria-hidden="true">
             {
                 images?.map((ele,index)=>(
                     <div key={index}>

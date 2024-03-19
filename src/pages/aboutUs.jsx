@@ -152,10 +152,24 @@ export default function AboutUs() {
           <li className=" border-l-4 border-[#0149a6]  bg-white p-2 pl-4 flex flex-col gap-2 rounded-r-sm">
             {t("whatWeHaveAchieved.line5")}
             <div className="flex gap-4 items-center ">
-            
-              <a arget="_blank" href="https://www.instagram.com/reel/C3lKOTfAwz3/?igsh=MTRkejE5YWY1bDViMA=="><Instagram size={30} className="  stroke-[#fff] rounded-md p-1 bg-[#f7543e]" /></a>
-              <a arget="_blank" href="https://www.zdf.de/nachrichten/politik/ausland/fachkraeftemangel-pflegepersonal-marokko-100.html"><Link size={30} className=" stroke-[#fff] rounded-md p-1 bg-[#0149a6]" /></a>
-    
+              <a
+                arget="_blank"
+                href="https://www.instagram.com/reel/C3lKOTfAwz3/?igsh=MTRkejE5YWY1bDViMA=="
+              >
+                <Instagram
+                  size={30}
+                  className="  stroke-[#fff] rounded-md p-1 bg-[#f7543e]"
+                />
+              </a>
+              <a
+                arget="_blank"
+                href="https://www.zdf.de/nachrichten/politik/ausland/fachkraeftemangel-pflegepersonal-marokko-100.html"
+              >
+                <Link
+                  size={30}
+                  className=" stroke-[#fff] rounded-md p-1 bg-[#0149a6]"
+                />
+              </a>
             </div>
           </li>
           <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
@@ -164,12 +178,18 @@ export default function AboutUs() {
           <li className=" border-l-4 border-[#0149a6]  bg-white p-2 pl-4 flex flex-col gap-2 rounded-r-sm">
             {t("whatWeHaveAchieved.line7")}
             <div className="flex gap-4 items-center ">
-            
-            <a arget="_blank" href="https://www1.wdr.de/lokalzeit/fernsehen/koeln/pflegeinternat-gegen-pflegekraeftemangel-im-bergischen--100.html"><Link size={30} className=" stroke-[#fff] rounded-md p-1 bg-[#0149a6]" /></a>
-  
-          </div>
+              <a
+                arget="_blank"
+                href="https://www1.wdr.de/lokalzeit/fernsehen/koeln/pflegeinternat-gegen-pflegekraeftemangel-im-bergischen--100.html"
+              >
+                <Link
+                  size={30}
+                  className=" stroke-[#fff] rounded-md p-1 bg-[#0149a6]"
+                />
+              </a>
+            </div>
           </li>
-          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm"> 
+          <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">
             {t("whatWeHaveAchieved.line8")}
           </li>
           <li className=" border-l-4 border-[#0149a6] bg-white p-2 pl-4 rounded-r-sm">

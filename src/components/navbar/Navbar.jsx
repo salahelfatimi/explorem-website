@@ -6,9 +6,15 @@ import { useEffect, useState } from "react";
 
 import { Menu, Moon, Phone, X } from "react-feather";
 import { useTranslation } from "next-i18next";
-import ChangeLungage from "../pages/components/changeLungage";
-
-export default function Navbar() {
+import ChangeLungage from "./changeLungage/changeLungage";
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["index", "navbar"])),
+    },
+  };
+}
+export default  function Navbar() {
   const { locale } = useRouter();
   const { t } = useTranslation("navbar");
   const router = useRouter();
@@ -40,19 +46,23 @@ export default function Navbar() {
                 <Link
                   href={ele.href}
                   locale={locale}
-                  className={`${router.pathname==ele.href?'border-b-2 border-[#0149A6]  text-[#0149A6]':''} capitalize text-lg font-semibold`}
+                  className={`${
+                    router.pathname == ele.href
+                      ? "border-b-2 border-[#0149A6]  text-[#0149A6]"
+                      : ""
+                  } capitalize text-lg font-semibold`}
                 >
                   {t(ele.title)}
                 </Link>
               </div>
             ))}
-              <a
-                className="flex items-center  gap-2 bg-[#0149A6] py-2 px-2 text-white rounded-full font-mediumt"
-                href="tel:+212650-656897"
-              >
-                <Phone size={20} />
-                  (+212) 6 50 65 68 97
-              </a>
+            <a
+              className="flex items-center  gap-2 bg-[#0149A6] py-2 px-2 text-white rounded-full font-mediumt"
+              href="tel:+212650-656897"
+            >
+              <Phone size={20} />
+              (+212) 6 50 65 68 97
+            </a>
             <ChangeLungage />
             <button className="bg-[#0149A6] rounded-full p-1">
               <Moon size={25} className="  stroke-white   " />
@@ -87,12 +97,21 @@ export default function Navbar() {
             </button>
             <div className=" flex gap-8  items-center flex-col">
               {Nav.map((ele, index) => (
-                <button onClick={()=>{setOpen(!open)}} key={index}>
+                <button
+                  onClick={() => {
+                    setOpen(!open);
+                  }}
+                  key={index}
+                >
                   <Link
                     href={ele.href}
                     locale={locale}
-                    className={`${router.pathname==ele.href?'border-b-2 border-[#0149A6]  text-[#0149A6]':''} capitalize text-lg font-semibold`}
-                    >
+                    className={`${
+                      router.pathname == ele.href
+                        ? "border-b-2 border-[#0149A6]  text-[#0149A6]"
+                        : ""
+                    } capitalize text-lg font-semibold`}
+                  >
                     {t(ele.title)}
                   </Link>
                 </button>
@@ -102,8 +121,8 @@ export default function Navbar() {
                 href="tel:+212650-656897"
               >
                 <Phone size={20} />
-                  (+212) 6 50 65 68 97
-                </a>
+                (+212) 6 50 65 68 97
+              </a>
               <ChangeLungage setOpen={setOpen} open={open} />
               <button className="bg-[#0149A6] rounded-full p-1">
                 <Moon size={25} className="  stroke-white   " />
