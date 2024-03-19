@@ -35,7 +35,7 @@ export default function AboutUs() {
         <div className="relative">
           <img
             src="/image/aboutUS/saction1.jpg"
-            className="h-auto max-w-full"
+            className="h-auto max-w-full w-full  "
             alt="..."
           />
 
