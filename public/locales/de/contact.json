@@ -1,0 +1,26 @@
+{
+  "GetInTouch": {
+    "title": "Kontaktieren Sie uns",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Senden"
+  },
+  "Inforamtion": {
+    "title": "Informationen",
+    "location": "Standort Explorem SARL",
+    "mobile": {
+      "title": "Mobilnummern/WhatsApp",
+      "whatsappAvailable": "(WhatsApp verfügbar)",
+      "landline": "(Festnetz)"
+    },
+    "email": {
+      "title": "E-Mail-Adressen",
+      "recruitment": "Rekrutierung",
+      "administration": "Verwaltung",
+      "documents": "Dokumente",
+      "nursing": "Pflege"
+    }
+  }
+}

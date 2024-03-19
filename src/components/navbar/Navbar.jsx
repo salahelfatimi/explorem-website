@@ -24,7 +24,7 @@ export default  function Navbar() {
     { id: 2, title: "employee", href: "#" },
     { id: 3, title: "form", href: "#" },
 
-    { id: 4, title: "contact", href: "#" },
+    { id: 4, title: "contact", href: "/contact" },
     { id: 5, title: "about", href: "/aboutUs" },
   ];
 

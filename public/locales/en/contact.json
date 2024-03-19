@@ -1,0 +1,27 @@
+{
+  "GetInTouch": {
+    "title": "Get In Touch",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "message": "message",
+    "send": "Send"
+  },
+  "Inforamtion": {
+    "title": "Inforamtion",
+    "location": "Location Explorem SARL ",
+    "mobile": {
+      "title": "Mobile Numbers/ Whatsapp",
+      "whatsappAvailable": "(Whatsapp available)",
+      "landline": "(Landline)"
+    },
+    "email": {
+        "title": "Email Addresses",
+        "recruitment": "Recruitment",
+        "administration": "Administration",
+        "documents":"Documents",
+        "nursing":"Nursing"
+      }
+   
+  }
+}
