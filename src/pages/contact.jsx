@@ -71,13 +71,13 @@ export default function Contact() {
                   placeholder={t('GetInTouch.subject')}
                 />
                 <textarea
-                  className="form-control bg-[#ffffff] border py-2 px-4 w-full font-mono text-xs"
+                  className="form-control bg-[#ffffff] border  py-2 px-4 w-full font-mono text-xs"
                   name="message"
                   id="message"
                   rows="16"
                   placeholder={t('GetInTouch.message')}
                 ></textarea>
-                <button className="  px-12 py-1 w-full rounded font-bold border-2 border-[#0149a6] text-[#0149a6] ">
+                <button className="  px-12 py-1 w-full rounded font-bold border-4 duration-700  hover:bg-white hover:text-[#0149a6] border-[#0149a6] bg-[#0149a6] text-white ">
                   {t('GetInTouch.send')}
                 </button>
               </form>
