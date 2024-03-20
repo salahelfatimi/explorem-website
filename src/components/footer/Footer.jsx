@@ -26,8 +26,8 @@ export default function Footer() {
           </span>
           <span className="flex flex-col lg:flex-row text-center items-center hover:underline decoration-4 underline-offset-4 hover:duration-700 transition  decoration-[#0149A6] gap-2">
             <Phone size={30} className=" stroke-[#0149A6]" />
-            <a href="tel:+212650-656897" className=" font-bold text-white">
-              (+212) 6 50 65 68 97
+            <a href="tel:+212809-891297" className=" font-bold text-white">
+              (+212)8 09 89 12 97
             </a>
           </span>
           <span className="flex  flex-col lg:flex-row text-center items-center  gap-2">

@@ -1,10 +1,4 @@
-import {
-  
-  Mail,
-  MapPin,
-  Phone,
- 
-} from "react-feather";
+import { Mail, MapPin, Phone } from "react-feather";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 export async function getStaticProps({ locale }) {
@@ -16,7 +10,7 @@ export async function getStaticProps({ locale }) {
 }
 
 export default function Contact() {
-    const  { t } =  useTranslation("contact");
+  const { t } = useTranslation("contact");
   return (
     <>
       <div className="">
@@ -24,9 +18,9 @@ export default function Contact() {
           <iframe
             className="absolute top-0 left-0 w-full h-full"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d849.2267858554978!2d-8.0121684!3d31.6363927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8fca7a678f%3A0x7c1f72dd20c997ac!2s6%20Rue%20des%20Vieux%20Marrakechis%2C%20Marrakech%2040000!5e0!3m2!1sen!2sma!4v1710868954732!5m2!1sen!2sma"
-            frameBorder="0"
+            frameborder="0"
+            allowfullscreen
             style={{ border: 0 }}
-            allowFullScreen=""
             aria-hidden="false"
             tabIndex="0"
           ></iframe>
@@ -37,7 +31,7 @@ export default function Contact() {
               <form className="space-y-3">
                 <div className="pb-4">
                   <span className="text-[#0149a6] font-bold  text-xl ">
-                    {t('GetInTouch.title')}
+                    {t("GetInTouch.title")}
                   </span>
                 </div>
                 <div className="flex justify-between gap-4">
@@ -46,14 +40,14 @@ export default function Contact() {
                     name="firstName"
                     id="firstName"
                     className="bg-[#ffffff] h-8 w-1/2 border p-4 font-mono text-xs"
-                    placeholder={t('GetInTouch.firstName')}
+                    placeholder={t("GetInTouch.firstName")}
                   />
                   <input
                     type="text"
                     name="lastName"
                     id="lastName"
                     className="bg-[#ffffff] w-1/2 h-8 border p-4 font-mono text-xs"
-                    placeholder={t('GetInTouch.lastName')}
+                    placeholder={t("GetInTouch.lastName")}
                   />
                 </div>
                 <input
@@ -61,37 +55,37 @@ export default function Contact() {
                   name="Email"
                   id="Email"
                   className="bg-[#ffffff] w-full h-8 border p-4 font-mono text-xs"
-                  placeholder={t('GetInTouch.email')}
+                  placeholder={t("GetInTouch.email")}
                 />
-                 <input
+                <input
                   type="text"
                   name="Subject"
                   id="Subject"
                   className="bg-[#ffffff] w-full h-8 border p-4 font-mono text-xs"
-                  placeholder={t('GetInTouch.subject')}
+                  placeholder={t("GetInTouch.subject")}
                 />
                 <textarea
                   className="form-control bg-[#ffffff] border  py-2 px-4 w-full font-mono text-xs"
                   name="message"
                   id="message"
                   rows="16"
-                  placeholder={t('GetInTouch.message')}
+                  placeholder={t("GetInTouch.message")}
                 ></textarea>
                 <button className="  px-12 py-1 w-full rounded font-bold border-4 duration-700  hover:bg-white hover:text-[#0149a6] border-[#0149a6] bg-[#0149a6] text-white ">
-                  {t('GetInTouch.send')}
+                  {t("GetInTouch.send")}
                 </button>
               </form>
               <div className=" space-y-3">
                 <div className="pb-4">
                   <span className="text-[#0149a6] font-bold  text-xl ">
-                    {t('Inforamtion.title')}
+                    {t("Inforamtion.title")}
                   </span>
                 </div>
                 <div className="space-y-4">
                   <div className="flex flex-col gap-2     text-black">
                     <span className="flex gap-2 font-semibold text-sm md:text-base items-center border-[#0149a6] border-2 w-auto text-[#0149a6]  rounded p-1 pl-4">
                       <MapPin size={20} className=" stroke-[#0149a6] min-w-8" />
-                      <span className="">{t('Inforamtion.location')}</span>
+                      <span className="">{t("Inforamtion.location")}</span>
                     </span>
                     <div className="gap-2  border-l-8 pl-2 border-white flex flex-col ">
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4">
@@ -111,7 +105,7 @@ export default function Contact() {
                         size={20}
                         className=" stroke-[#0149a6] min-w-8  "
                       />
-                      <span className="">{t('Inforamtion.mobile.title')}</span>
+                      <span className="">{t("Inforamtion.mobile.title")}</span>
                     </span>
                     <div className="gap-2  border-l-8 pl-2 border-white flex flex-col ">
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4">
@@ -119,7 +113,10 @@ export default function Contact() {
                           href="tel:+212668-676518"
                           className=" flex flex-row gap-1 text-sm "
                         >
-                          (+212) 6 68 67 65 18 <span>{t('Inforamtion.mobile.whatsappAvailable')}</span>{" "}
+                          (+212) 6 68 67 65 18{" "}
+                          <span>
+                            {t("Inforamtion.mobile.whatsappAvailable")}
+                          </span>{" "}
                         </a>
                       </span>
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
@@ -127,7 +124,8 @@ export default function Contact() {
                           href="tel:+212809-891297"
                           className="flex flex-row gap-1 text-sm "
                         >
-                          (+212) 8 09 89 12 97 <span>{t('Inforamtion.mobile.landline')}</span>
+                          (+212) 8 09 89 12 97{" "}
+                          <span>{t("Inforamtion.mobile.landline")}</span>
                         </a>
                       </span>
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
@@ -140,14 +138,13 @@ export default function Contact() {
                           (+212) 6 08 78 93 60
                         </a>{" "}
                       </span>
-                     
                     </div>
                   </div>
-                  
+
                   <div className="flex flex-col gap-2     text-black">
                     <span className="flex gap-2 font-semibold text-sm md:text-base items-center border-[#0149a6] border-2 w-auto text-[#0149a6]  rounded p-1 pl-4">
                       <Mail size={20} className=" stroke-[#0149A6] min-w-8" />
-                      <span className="">{t('Inforamtion.email.title')}</span>
+                      <span className="">{t("Inforamtion.email.title")}</span>
                     </span>
                     <div className="gap-2  border-l-8 pl-2 border-white flex flex-col ">
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
@@ -155,7 +152,8 @@ export default function Contact() {
                           href="mailto: explorem21@gmail.com"
                           className="  text-sm "
                         >
-                          {t('Inforamtion.email.administration')} : explorem21@gmail.com
+                          {t("Inforamtion.email.administration")} :
+                          explorem21@gmail.com
                         </a>
                       </span>
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4">
@@ -163,7 +161,8 @@ export default function Contact() {
                           href="mailto: erecruit21@gmail.com"
                           className="  text-sm "
                         >
-                          {t('Inforamtion.email.recruitment')} : erecruit21@gmail.com
+                          {t("Inforamtion.email.recruitment")} :
+                          erecruit21@gmail.com
                         </a>
                       </span>
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
@@ -171,7 +170,8 @@ export default function Contact() {
                           href="mailto: explorem.documents@gmail.com"
                           className="  text-sm "
                         >
-                          {t('Inforamtion.email.documents')} : explorem.documents@gmail.com
+                          {t("Inforamtion.email.documents")} :
+                          explorem.documents@gmail.com
                         </a>
                       </span>
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
@@ -179,12 +179,12 @@ export default function Contact() {
                           href="mailto: explorem.nursing@gmail.com"
                           className="  text-sm "
                         >
-                          {t('Inforamtion.email.nursing')} : explorem.nursing@gmail.com
+                          {t("Inforamtion.email.nursing")} :
+                          explorem.nursing@gmail.com
                         </a>
                       </span>
                     </div>
                   </div>
-                  
                 </div>
               </div>
             </div>

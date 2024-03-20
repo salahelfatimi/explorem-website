@@ -1,7 +1,7 @@
 {
     "home": "Home",
-    "employee": "Employee",
-    "form": "Form",
+    "employers": "employers",
+    "candidates": "candidates",
     "contact": "Contact",
     "about": "About",
     "client": "Client"
