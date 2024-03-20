@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { Menu, Moon, Phone, X } from "react-feather";
 import { useTranslation } from "next-i18next";
 import ChangeLungage from "./changeLungage/changeLungage";
+import Image from "next/image";
 export async function getStaticProps({ locale }) {
   return {
     props: {
@@ -14,7 +15,7 @@ export async function getStaticProps({ locale }) {
     },
   };
 }
-export default  function Navbar() {
+export default function Navbar() {
   const { locale } = useRouter();
   const { t } = useTranslation("navbar");
   const router = useRouter();
@@ -34,7 +35,9 @@ export default  function Navbar() {
       <div className=" hidden fixed bg-white right-0 left-0 lg:block z-50 ">
         <div className="  container  px-8  py-4 flex  flex-row justify-between items-center ">
           <div>
-            <img
+            <Image
+              width={1000}
+              height={1000}
               src={`/image/logo/Explorem_logo.png`}
               className=" w-28 "
               alt="Explorem"
@@ -75,7 +78,9 @@ export default  function Navbar() {
       <div className=" block fixed bg-white right-0 left-0 lg:hidden z-50">
         <div className="  container  p-4 flex flex-col    ">
           <div className=" flex justify-between items-center">
-            <img
+            <Image
+              width={1000}
+              height={1000}
               src={`/image/logo/Explorem_logo.png`}
               className=" w-24 "
               alt="Explorem"

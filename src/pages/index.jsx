@@ -116,11 +116,17 @@ export default function Index() {
         </div>
         <div className=" flex flex-col gap-4">
           <span className="flex  items-center gap-4 justify-center">
-            <img
-              src="/image/aboutUS/logoHand.png"
-              className="w-20 lg:w-24"
-              alt="Explorem"
-            />
+          <Image
+            src="/image/aboutUS/logoHand.png"
+            className="w-20 lg:w-24"
+            width={1200}
+            height={550}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
+            alt="Explorem"
+          />
             <p className=" capitalize font-bold text-xl lg:text-2xl text-[#0149a6]">
               {t("vedioTitle")}
             </p>

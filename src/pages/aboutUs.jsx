@@ -90,7 +90,9 @@ export default function AboutUs() {
           </p>
           <p className=" lg:text-lg font-medium">{t("grid.grid1.text")}</p>
         </span>
-        <img
+        <Image
+          width={500}
+          height={500}
           src="/image/aboutUS/logoHand.png"
           className="w-36"
           alt="Explorem"
@@ -125,7 +127,7 @@ export default function AboutUs() {
         <span className="flex  items-center gap-4 justify-center">
           <Image
             src="/image/aboutUS/logoHand.png"
-            className="w-24 lg:w-28"
+            className="w-20 lg:w-24"
             width={1200}
             height={550}
             style={{
@@ -254,7 +256,9 @@ export default function AboutUs() {
         <div className=" space-y-16">
           <div className="flex lg:flex-row flex-col items-center justify-center gap-4  container ">
             <div className=" flex  justify-center">
-              <img
+              <Image
+                width={500}
+                height={500}
                 src="/image/aboutUS/team/Gracila.jpg"
                 className="w-2/3 rounded-md "
                 alt="Gracila"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   Clock,
   Facebook,
@@ -62,7 +63,9 @@ export default function Footer() {
               target="_blank"
               className="bg-black   p-2 rounded-full"
             >
-              <img
+              <Image
+                width={500}
+                height={500}
                 src="/image/index/icon/tiktok.svg"
                 className=" w-6"
                 alt="explorem"

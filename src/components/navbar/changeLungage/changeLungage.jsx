@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -20,7 +21,9 @@ export default function ChangeLungage({setOpen,open}){
                 setShowLanguage(!showLanguage)
               }}
             >
-              <img
+              <Image
+                width={500}
+                height={500}
                 src={`/image/flag/${locale}.png`}
                 className="h-4 w-5"
                 alt=""
@@ -34,7 +37,9 @@ export default function ChangeLungage({setOpen,open}){
             <div className={` absolute  bg-[#0149A6] p-3 rounded-md   right-0 left-0 ${ showLanguage===false?" hidden ":"block" }  `}>
               {locales.map((lan, index) => (
                 <div onClick={() => { setShowLanguage(!showLanguage),handleClick(lan)}} key={index} className={`flex items-center hover:bg-white text-white hover:text-black rounded-md p-1 gap-2 `}>
-                  <img
+                  <Image
+                    width={500}
+                    height={500}
                     src={`/image/flag/${lan}.png`}
                     className="h-4 w-5"
                     alt=""
