@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const InfiniteHorizontalScroll = ({ images }) => {
   return (
-    <div className="flex overflow-hidden space-x-4 group ">
-      <div className="flex space-x-4 lg:loop-scroll ">
+    <div className="flex overflow-hidden space-x-4   ">
+      <div className="flex space-x-4 animate-loop-scroll">
         {images?.map((ele, index) => (
           <div key={index}>
             <Image
@@ -18,7 +18,7 @@ const InfiniteHorizontalScroll = ({ images }) => {
           </div>
         ))}
       </div>
-      <div className="flex space-x-4 lg:loop-scroll " aria-hidden="true">
+      <div className="flex space-x-4 animate-loop-scroll" aria-hidden="true">
         {images?.map((ele, index) => (
           <div key={index}>
             <Image
