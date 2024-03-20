@@ -10,6 +10,7 @@ const InfiniteHorizontalScroll = ({ images }) => {
           <div key={index}>
             <Image
               width={1200}
+              priority={false}
               height={550}
               src={ele.src}
               className="max-w-none rounded-sm h-52 w-auto"
@@ -23,6 +24,7 @@ const InfiniteHorizontalScroll = ({ images }) => {
           <div key={index}>
             <Image
               width={1200}
+              priority={false}
               height={550}
               src={ele.src}
               className="max-w-none rounded-sm h-52 w-auto"
