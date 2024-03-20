@@ -2,6 +2,7 @@
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import InfiniteHorizontalScroll from "./components/infiniteHorizontalScroll";
+import Image from "next/image";
 export async function getStaticProps({ locale }) {
   return {
     props: {
@@ -93,7 +94,9 @@ export default function Index() {
                 className="flex   bg-white py-2 px-4  shadow rounded-md items-center gap-2"
               >
                 <div className=" border-[#0149a6]  border-4 p-3 rounded-full">
-                  <img
+                  <Image
+                    width={500}
+                    height={500}
                     src={`image/index/icon/${ele.svg}`}
                     className="w-11 min-w-11 fill-white"
                     alt="explorem"
@@ -124,15 +127,16 @@ export default function Index() {
           </span>
 
           <video
-            className="w-full h-full object-cover"
-            controls
-            autoPlay
-            loop
-            muted
-          >
-            <source src="/video/Explorem.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          className="w-full h-full object-cover"
+          controls
+          autoPlay
+          loop
+          muted
+          width="320" height="240"  preload="none"
+        >
+          <source src="/video/Explorem.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         </div>
         <div>
               

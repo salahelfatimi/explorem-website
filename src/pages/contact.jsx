@@ -131,37 +131,39 @@ export default function Contact() {
                         </a>
                       </span>
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
-                        <a href="tel:+212608-789360" className="  text-sm ">
-                          (+212) 6 08 78 93 60
-                        </a>{" "}
-                      </span>
-                      <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
                         <a href="tel:+212650-656897" className="  text-sm ">
                           (+212) 6 50 65 68 97
                         </a>
                       </span>
+                      <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
+                        <a href="tel:+212608-789360" className="  text-sm ">
+                          (+212) 6 08 78 93 60
+                        </a>{" "}
+                      </span>
+                     
                     </div>
                   </div>
+                  
                   <div className="flex flex-col gap-2     text-black">
                     <span className="flex gap-2 font-semibold text-sm md:text-base items-center border-[#0149a6] border-2 w-auto text-[#0149a6]  rounded p-1 pl-4">
                       <Mail size={20} className=" stroke-[#0149A6] min-w-8" />
                       <span className="">{t('Inforamtion.email.title')}</span>
                     </span>
                     <div className="gap-2  border-l-8 pl-2 border-white flex flex-col ">
-                      <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4">
-                        <a
-                          href="mailto: erecruit21@gmail.com"
-                          className="  text-sm "
-                        >
-                          {t('Inforamtion.email.recruitment')} : erecruit21@gmail.com
-                        </a>
-                      </span>
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
                         <a
                           href="mailto: explorem21@gmail.com"
                           className="  text-sm "
                         >
                           {t('Inforamtion.email.administration')} : explorem21@gmail.com
+                        </a>
+                      </span>
+                      <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4">
+                        <a
+                          href="mailto: erecruit21@gmail.com"
+                          className="  text-sm "
+                        >
+                          {t('Inforamtion.email.recruitment')} : erecruit21@gmail.com
                         </a>
                       </span>
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">

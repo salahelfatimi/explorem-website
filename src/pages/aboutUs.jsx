@@ -3,6 +3,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import InfiniteHorizontalScroll from "./components/infiniteHorizontalScroll";
 import { Instagram, Link } from "react-feather";
+import Image from "next/image";
 export async function getStaticProps({ locale }) {
   return {
     props: {
@@ -33,10 +34,16 @@ export default function AboutUs() {
     <div className="flex flex-col gap-8 pb-16 bg-[#F5F5F5] ">
       <div className="flex flex-col gap-10">
         <div className="relative">
-          <img
+          <Image
             src="/image/aboutUS/saction1.jpg"
             className="h-auto max-w-full w-full  "
-            alt="..."
+            width={1200}
+            height={550}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
+            alt="Explorem"
           />
 
           <div className="absolute inset-0 flex justify-center items-center">
@@ -64,9 +71,15 @@ export default function AboutUs() {
           <p>{t("slogen1.line1")}</p>
           <p>{t("slogen1.line2")}</p>
         </span>
-        <img
+        <Image
           src="/image/aboutUS/slogen1.jpg"
           className="lg:w-1/3 rounded-xl"
+          width={1200}
+          height={550}
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+          }}
           alt="Explorem"
         />
       </div>
@@ -110,9 +123,15 @@ export default function AboutUs() {
       </div>
       <div className=" flex flex-col gap-4">
         <span className="flex  items-center gap-4 justify-center">
-          <img
+          <Image
             src="/image/aboutUS/logoHand.png"
             className="w-24 lg:w-28"
+            width={1200}
+            height={550}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
             alt="Explorem"
           />
           <p className=" capitalize font-bold text-xl lg:text-2xl text-[#0149a6]">
@@ -126,6 +145,9 @@ export default function AboutUs() {
           autoPlay
           loop
           muted
+          width="320"
+          height="240"
+          preload="none"
         >
           <source src="/video/Explorem.mp4" type="video/mp4" />
           Your browser does not support the video tag.
@@ -218,7 +240,9 @@ export default function AboutUs() {
       </div>
       <div className=" space-y-12">
         <span className="flex gap-4  items-center justify-center">
-          <img
+          <Image
+            width={500}
+            height={500}
             src="/image/aboutUS/logoHand.png"
             className="w-24 lg:w-28"
             alt="Explorem"
@@ -267,7 +291,9 @@ export default function AboutUs() {
           </div>
           <div className="flex lg:flex-row-reverse flex-col items-center justify-center gap-4  container ">
             <div className=" flex  justify-center">
-              <img
+              <Image
+                width={500}
+                height={500}
                 src="/image/aboutUS/team/Abdessamad.png"
                 className="w-2/3 rounded-md "
                 alt="Gracila"
