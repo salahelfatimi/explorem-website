@@ -63,6 +63,13 @@ export default function Contact() {
                   className="bg-[#ffffff] w-full h-8 border p-4 font-mono text-xs"
                   placeholder={t('GetInTouch.email')}
                 />
+                 <input
+                  type="text"
+                  name="Subject"
+                  id="Subject"
+                  className="bg-[#ffffff] w-full h-8 border p-4 font-mono text-xs"
+                  placeholder={t('GetInTouch.subject')}
+                />
                 <textarea
                   className="form-control bg-[#ffffff] border py-2 px-4 w-full font-mono text-xs"
                   name="message"

@@ -4,6 +4,7 @@
     "firstName": "Vorname",
     "lastName": "Nachname",
     "email": "E-Mail",
+    "subject":"Thema",
     "message": "Nachricht",
     "send": "Senden"
   },
