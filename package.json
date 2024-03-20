@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/speed-insights": "^1.0.10",
     "i18next": "^23.10.1",
     "next": "14.0.1",
     "next-i18next": "^15.2.0",
