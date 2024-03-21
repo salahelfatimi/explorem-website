@@ -109,7 +109,7 @@ export default function Employers() {
 
           <div className="px-2 flex flex-col gap-4  list-outside ">
             {services.map((ele, index) => (
-              <div className="border-l-4 border-[#0149a6] bg-white p-2 pl-4  rounded-r-sm container">
+              <div key={index} className="border-l-4 border-[#0149a6] bg-white p-2 pl-4  rounded-r-sm container">
                 <h2 className="text-md lg:text-lg  font-semibold mb-4 text-[#0149a6]">
                   {ele.title}
                 </h2>
