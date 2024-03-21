@@ -8,13 +8,7 @@ import { Menu, Moon, Phone, X } from "react-feather";
 import { useTranslation } from "next-i18next";
 import ChangeLungage from "./changeLungage/changeLungage";
 import Image from "next/image";
-export async function getStaticProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["index", "navbar"])),
-    },
-  };
-}
+
 export default function Navbar() {
   const { locale } = useRouter();
   const { t } = useTranslation("navbar");
@@ -66,7 +60,7 @@ export default function Navbar() {
               <Phone size={20} />
               (+212)8 09 89 12 97
             </a>
-            <ChangeLungage />
+            <ChangeLungage open={true} setOpen={setOpen}/>
             <button className="bg-[#0149A6] rounded-full p-1">
               <Moon size={25} className="  stroke-white   " />
             </button>

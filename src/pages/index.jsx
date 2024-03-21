@@ -3,6 +3,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import InfiniteHorizontalScroll from "./components/infiniteHorizontalScroll";
 import Image from "next/image";
+import Link from "next/link";
 export async function getStaticProps({ locale }) {
   return {
     props: {
@@ -79,9 +80,9 @@ export default function Index() {
               </span>
             </span>
           </h1>
-          <button className="bg-[#134BA1] py-3  px-6 text-white font-bold rounded-full uppercase">
+          <Link href="/candidates" className="bg-[#134BA1] py-3 duration-700 hover:bg-[#F5F5F5] hover:text-[#134BA1] border-4 border-[#134BA1]  px-6 text-white font-bold rounded-full uppercase">
             apply today
-          </button>
+          </Link>
         </div>
         <div className="bg-[#0149a6] py-6">
           <InfiniteHorizontalScroll images={images} />

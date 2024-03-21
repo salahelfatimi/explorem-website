@@ -3,6 +3,7 @@
 import Image from "next/image";
 
 const InfiniteHorizontalScroll = ({ images }) => {
+    
   return (
     <div className="flex overflow-hidden space-x-4   ">
       <div className="flex space-x-4 lg:animate-loop-scroll">

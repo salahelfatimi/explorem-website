@@ -20,7 +20,7 @@ export default function Layout({ children }) {
         />
       </Head>
       <Navbar />
-      <main className="pt-24 mb-auto bg-[#f5f5f5]">{children}</main>
+      <main className="pt-20 lg:pt-24 mb-auto bg-[#f5f5f5]">{children}</main>
       <Footer />
     </>
   );

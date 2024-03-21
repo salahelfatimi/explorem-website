@@ -36,7 +36,7 @@ export default function ChangeLungage({setOpen,open}){
             </div>
             <div className={` absolute  bg-[#0149A6] p-3 rounded-md   right-0 left-0 ${ showLanguage===false?" hidden ":"block" }  `}>
               {locales.map((lan, index) => (
-                <div onClick={() => { setShowLanguage(!showLanguage),handleClick(lan)}} key={index} className={`flex items-center hover:bg-white text-white hover:text-black rounded-md p-1 gap-2 `}>
+                <div onClick={() => { setShowLanguage(!showLanguage),handleClick(lan),setOpen(!open)}} key={index} className={`flex items-center hover:bg-white text-white hover:text-black rounded-md p-1 gap-2 `}>
                   <Image
                     width={500}
                     height={500}
