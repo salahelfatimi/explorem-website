@@ -1,0 +1,60 @@
+{
+  "titleEmployers": "Unsere besten Dienstleistungen für Arbeitgeber",
+  "descriptionEmployers": "Projektmanagement (im Bereich Humanressourcen, Rekrutierung, Ausbildung im Pflegebereich, Sprachbildung/Training)",
+  "Services": {
+    "line1": {
+      "title": "Koordination mit lokalen Partnern",
+      "description": "Zusammenarbeit mit lokalen Schulen, Institutionen, Verbänden und anderen Partnern zur Einrichtung starker Rekrutierungsnetzwerke."
+    },
+    "line2": {
+      "title": "Projektpräsentation und Ausrichtung",
+      "description": "Erstellung und Präsentation überzeugender Projektpräsentationen, die auf die am besten geeigneten Profile für die Bedürfnisse Ihrer Organisation abzielen."
+    },
+    "line3": {
+      "title": "Stellenbeschreibungserstellung",
+      "description": "Entwicklung detaillierter Stellenbeschreibungen für jede Kategorie, die Rollen, Verantwortlichkeiten und erforderliche Qualifikationen umreißt."
+    },
+    "line4": {
+      "title": "Kandidatenprofilierung",
+      "description": "Identifizierung und Ausrichtung der am besten geeigneten Kandidatenprofile, einschließlich solcher mit mindestens einem B1-Sprachzertifikat oder der Bereitschaft, das erforderliche Sprachniveau zu erlernen."
+    },
+    "line5": {
+      "title": "Qualifikationsbewertung und Kandidatenauswahl",
+      "description": "Durchführung gründlicher Bewertungen der Qualifikationen und Fähigkeiten der Kandidaten, um die am besten geeigneten Kandidaten für Ihre Positionen auszuwählen."
+    },
+    "line6": {
+      "title": "Sprachbildungsüberwachung",
+      "description": "Überwachung des Fortschritts und der Leistung der Kandidaten im Sprachbildungsprogramm, das vereinbart wurde."
+    },
+    "line7": {
+      "title": "Dokumentensammlung zur Anerkennung",
+      "description": "Unterstützung der Kandidaten bei der Beschaffung der erforderlichen Dokumente zur Anerkennung und Zertifizierung in ihren jeweiligen Bereichen."
+    },
+    "line8": {
+      "title": "Professionelle CV-Erstellung",
+      "description": "Erstellung professioneller Lebensläufe für Kandidaten, um ihre Fähigkeiten und Erfahrungen effektiv gegenüber zukünftigen Arbeitgebern darzustellen."
+    },
+    "line9": {
+      "title": "Vorbereitung auf Vorstellungsgespräche",
+      "description": "Vorbereitung der Kandidaten auf Online- oder persönliche Vorstellungsgespräche, um sicherzustellen, dass sie selbstbewusst und gut vorbereitet sind."
+    },
+    "line10": {
+      "title": "Visumsantragsunterstützung",
+      "description": "Anleitung der Kandidaten durch den Visumsantragsprozess in ihrem Heimatland und umfassende Unterstützung und Beratung."
+    },
+    "line11": {
+      "title": "Kommunikation wichtiger Informationen an Rekruten",
+      "description": "Kommunikation aller wichtigen Informationen, Anforderungen und Erwartungen klar an Rekruten während des Rekrutierungs- und Umzugsprozesses."
+    },
+    "line12": {
+      "title": "Kontinuierliche Unterstützung der Kandidaten",
+      "description": "Bereitstellung kontinuierlicher Unterstützung für Kandidaten vom Vertragsabschluss bis zur Umsiedlung, um einen reibungslosen Übergang in ihre neuen Rollen im Zielland sicherzustellen."
+    }
+  },
+  "ourJourneyWithPartners": "Unsere Reise mit Partnern",
+  "slogan": {
+    "line1": "“ Wir glauben daran, Grenzen des Möglichen zu verschieben.",
+    "line2": "Wir sind ein Expertenteam, das sich der Bereitstellung herausragender Ergebnisse verschrieben hat. ”"
+  },
+  "getInTouch": "Kontaktieren Sie uns: Nehmen Sie noch heute Kontakt zu uns auf"
+}

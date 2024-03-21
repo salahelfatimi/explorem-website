@@ -16,8 +16,8 @@ export default function Navbar() {
   const [open, setOpen] = useState(true);
   const Nav = [
     { id: 1, title: "home", href: "/" },
-    { id: 2, title: "employers", href: "#" },
-    { id: 3, title: "candidates", href: "#" },
+    { id: 2, title: "employers", href: "/employers" },
+    { id: 3, title: "candidates", href: "/candidates" },
 
     { id: 4, title: "contact", href: "/contact" },
     { id: 5, title: "about", href: "/aboutUs" },
@@ -58,7 +58,7 @@ export default function Navbar() {
               href="tel:+212809-891297"
             >
               <Phone size={20} />
-              (+212)8 09 89 12 97
+              (+212) 8 09 89 12 97
             </a>
             <ChangeLungage open={true} setOpen={setOpen}/>
             <button className="bg-[#0149A6] rounded-full p-1">

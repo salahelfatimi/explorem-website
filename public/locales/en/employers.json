@@ -1,0 +1,60 @@
+{
+  "titleEmployers": "Our Best Services For Employers",
+  "descriptionEmployers": "Project Management (related to human resources, recruitment, nursing education, language formation/training)",
+  "Services": {
+    "line1": {
+      "title": "Coordination with Local Partners",
+      "description": "Collaborate with local schools, institutions, associations, and other partners to establish strong recruitment networks."
+    },
+    "line2": {
+      "title": "Project Presentation and Targeting",
+      "description": "Craft and deliver compelling project presentations targeting the most suitable profiles for your organization's needs."
+    },
+    "line3": {
+      "title": "Job Description Establishment",
+      "description": "Develop detailed job descriptions for each category, outlining roles, responsibilities, and required qualifications."
+    },
+    "line4": {
+      "title": "Candidate Profiling",
+      "description": "Identify and target the most suitable candidate profiles, including those with at least a B1 language certificate or a willingness to learn the required language level."
+    },
+    "line5": {
+      "title": "Qualification Assessment and Candidate Selection",
+      "description": "Conduct thorough assessments of candidate qualifications and skills to select the most suitable candidates for your positions."
+    },
+    "line6": {
+      "title": "Language Formation Monitoring",
+      "description": "CollabMonitor candidates' language formation progress and performance based on the agreed-upon language training program."
+    },
+    "line7": {
+      "title": "Document Collection for Recognition",
+      "description": "Assist candidates in gathering necessary documents for recognition and certification in their respective fields."
+    },
+    "line8": {
+      "title": "Professional CV Creation",
+      "description": "Create professional CVs for candidates to present their skills and experiences effectively to future employers."
+    },
+    "line9": {
+      "title": "Interview Preparation",
+      "description": "Prepare candidates for online or face-to-face interviews, ensuring they are confident and well-prepared."
+    },
+    "line10": {
+      "title": "Visa Application Assistance",
+      "description": "Guide candidates through the visa application process in their home country, providing comprehensive support and guidance."
+    },
+    "line11": {
+      "title": "Information Communication to Recruits",
+      "description": "Communicate all necessary information, requirements, and expectations clearly to recruits throughout the recruitment and relocation process."
+    },
+    "line12": {
+      "title": "Continuous Candidate Support",
+      "description": "Provide continuous support to candidates from contract signing to relocation, ensuring a smooth transition to their new roles in the target country."
+    }
+  },
+  "ourJourneyWithPartners": "Our Journey With Partners",
+  "slogen": {
+    "line1": " “ We believe in pushing boundaries of what’s possible.",
+    "line2": "We are a team of experts committed todelivering outstanding results . ”"
+  },
+  "getInTouch": "Get In Touch: Reach Out To Us Today"
+}

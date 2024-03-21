@@ -12,7 +12,7 @@ export async function getStaticProps({ locale }) {
   };
 }
 export default function Index() {
-   const  { t } =  useTranslation("index");
+  const { t } = useTranslation("index");
   const images = [
     { src: "/image/aboutUS/slideLeft/image1.jpg" },
     { src: "/image/aboutUS/slideLeft/image2.jpg" },
@@ -80,7 +80,10 @@ export default function Index() {
               </span>
             </span>
           </h1>
-          <Link href="/candidates" className="bg-[#134BA1] py-3 duration-700 hover:bg-[#F5F5F5] hover:text-[#134BA1] border-4 border-[#134BA1]  px-6 text-white font-bold rounded-full uppercase">
+          <Link
+            href="/candidates"
+            className="bg-[#134BA1] py-3 duration-700 hover:bg-[#F5F5F5] hover:text-[#134BA1] border-4 border-[#134BA1]  px-6 text-white font-bold rounded-full uppercase"
+          >
             apply today
           </Link>
         </div>
@@ -117,36 +120,40 @@ export default function Index() {
         </div>
         <div className=" flex flex-col gap-4">
           <span className="flex  items-center gap-4 justify-center">
-          <Image
-            src="/image/aboutUS/logoHand.png"
-            className="w-20 lg:w-24"
-            width={1200}
-            height={550}
-            style={{
-              maxWidth: "100%",
-              height: "auto",
-            }}
-            alt="Explorem"
-          />
+            <Image
+              src="/image/aboutUS/logoHand.png"
+              className="w-20 lg:w-24"
+              width={1200}
+              height={550}
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
+              alt="Explorem"
+            />
             <p className=" capitalize font-bold text-xl lg:text-2xl text-[#0149a6]">
               {t("vedioTitle")}
             </p>
           </span>
 
           <video
-          className="w-full h-full object-cover"
-          controls
-          autoPlay
-          loop
-          muted
-          width="320" height="240"  preload="none"
-        >
-          <source src="/video/Explorem.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+            className="w-full h-full object-cover"
+            controls
+            autoPlay
+            loop
+            muted
+            width="320"
+            height="240"
+            preload="none"
+          >
+            <source src="/video/Explorem.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div>
-              
+              <div>
+                  
+              </div>
         </div>
       </div>
     </>
