@@ -1,13 +1,17 @@
-"use client"
+"use client";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Image from "next/image";
 import InfiniteHorizontalScroll from "./components/infiniteHorizontalScroll";
 import Contact from "./contact";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ["contact", "navbar","employers"])),
+      ...(await serverSideTranslations(locale, [
+        "contact",
+        "navbar",
+        "employers",
+      ])),
     },
   };
 }
@@ -97,25 +101,28 @@ export default function Employers() {
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="bg-[#ffff]  w-full items-center flex flex-col gap-2 capitalize p-2 lg:p-9 text-[#0149A6]">
                   <h1 className="lg:text-4xl text-md font-bold">
-                    {t("titleEmployers")}
+                    <span>{t("titleEmployers")}</span>
                   </h1>
                 </div>
               </div>
             </div>
             <h2 className=" bg-[#0149A6]   font-bold lg:text-3xl text-md text-[#ffff] text-center p-4  ">
-              {t("descriptionEmployers")}
+              <span>{t("descriptionEmployers")}</span>
             </h2>
           </div>
 
           <div className="px-2 flex flex-col gap-4  list-outside ">
             {services.map((ele, index) => (
-              <div key={index} className="border-l-4 border-[#0149a6] bg-white p-2 pl-4  rounded-r-sm container">
-                <h2 className="text-md lg:text-lg  font-semibold mb-4 text-[#0149a6]">
+              <div
+                key={index}
+                className="border-l-4 flex flex-col border-[#0149a6] bg-white p-2 pl-4  rounded-r-sm container"
+              >
+                <span className="text-md lg:text-lg  font-semibold mb-4 text-[#0149a6]">
                   {ele.title}
-                </h2>
-                <p className="text-gray-700 text-sm md:text-base">
+                </span>
+                <span className="text-gray-700 text-sm md:text-base">
                   {ele.description}
-                </p>
+                </span>
               </div>
             ))}
           </div>
@@ -134,9 +141,9 @@ export default function Employers() {
                     }}
                     alt="Explorem"
                   />
-                  <p className=" capitalize font-bold text-xl lg:text-2xl text-[#0149a6]">
+                  <span className=" capitalize font-bold text-xl lg:text-2xl text-[#0149a6]">
                     {t("ourJourneyWithPartners")}
-                  </p>
+                  </span>
                 </span>
               </div>
               <div className="bg-[#0149a6] py-6">
@@ -166,9 +173,9 @@ export default function Employers() {
                   }}
                   alt="Explorem"
                 />
-                <p className=" capitalize text-center font-bold text-md lg:text-2xl text-[#0149a6]">
-                  {t('getInTouch')}
-                </p>
+                <span className=" capitalize text-center font-bold text-md lg:text-2xl text-[#0149a6]">
+                  {t("getInTouch")}
+                </span>
               </span>
             </div>
 
