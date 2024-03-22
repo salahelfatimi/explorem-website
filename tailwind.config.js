@@ -40,6 +40,10 @@ module.exports = {
         'loop-scroll': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
+        },
+        'loop-vertical': {
+          from: { transform: 'translatey(0)' },
+          to: { transform: 'translatey(-100%)' },
         }
       } 
     },

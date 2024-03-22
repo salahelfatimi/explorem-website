@@ -24,29 +24,21 @@
     },
     "line6": {
       "title": "Language Formation Monitoring",
-      "description": "CollabMonitor candidates' language formation progress and performance based on the agreed-upon language training program."
+      "description": "Monitor candidates' language formation progress and performance based on the agreed-upon language training program."
     },
     "line7": {
       "title": "Document Collection for Recognition",
       "description": "Assist candidates in gathering necessary documents for recognition and certification in their respective fields."
     },
     "line8": {
-      "title": "Professional CV Creation",
-      "description": "Create professional CVs for candidates to present their skills and experiences effectively to future employers."
-    },
-    "line9": {
-      "title": "Interview Preparation",
-      "description": "Prepare candidates for online or face-to-face interviews, ensuring they are confident and well-prepared."
-    },
-    "line10": {
       "title": "Visa Application Assistance",
       "description": "Guide candidates through the visa application process in their home country, providing comprehensive support and guidance."
     },
-    "line11": {
+    "line9": {
       "title": "Information Communication to Recruits",
       "description": "Communicate all necessary information, requirements, and expectations clearly to recruits throughout the recruitment and relocation process."
     },
-    "line12": {
+    "line10": {
       "title": "Continuous Candidate Support",
       "description": "Provide continuous support to candidates from contract signing to relocation, ensuring a smooth transition to their new roles in the target country."
     }

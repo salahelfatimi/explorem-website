@@ -30,8 +30,8 @@ export default function Navbar() {
         <div className="  container  px-8  py-4 flex  flex-row justify-between items-center ">
           <div>
             <Image
-              width={1000}
-              height={1000}
+              width={388}
+              height={244}
               src={`/image/logo/Explorem_logo.png`}
               className=" w-28 "
               alt="Explorem"
@@ -73,8 +73,8 @@ export default function Navbar() {
         <div className="  container  p-4 flex flex-col    ">
           <div className=" flex justify-between items-center">
             <Image
-              width={1000}
-              height={1000}
+              width={388}
+              height={244}
               src={`/image/logo/Explorem_logo.png`}
               className=" w-24 "
               alt="Explorem"

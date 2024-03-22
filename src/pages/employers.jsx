@@ -59,14 +59,6 @@ export default function Employers() {
       title: t("Services.line10.title"),
       description: t("Services.line10.description"),
     },
-    {
-      title: t("Services.line11.title"),
-      description: t("Services.line11.description"),
-    },
-    {
-      title: t("Services.line12.title"),
-      description: t("Services.line12.description"),
-    },
   ];
   const Partners = [
     { src: "/image/employers/partnersGrid/imagePartners3.jpg" },
@@ -74,11 +66,6 @@ export default function Employers() {
     { src: "/image/employers/partnersGrid/imagePartners5.jpg" },
     { src: "/image/employers/partnersGrid/imagePartners1.jpg" },
     { src: "/image/employers/partnersGrid/imagePartners6.jpg" },
-    { src: "/image/employers/partnersGrid/imagePartners7.jpg" },
-    { src: "/image/employers/partnersGrid/imagePartners2.jpg" },
-    { src: "/image/employers/partnersGrid/imagePartners8.jpg" },
-    { src: "/image/employers/partnersGrid/imagePartners9.jpg" },
-    { src: "/image/employers/partnersGrid/imagePartners10.jpg" },
   ];
   return (
     <>
@@ -89,29 +76,25 @@ export default function Employers() {
               <Image
                 src="/image/employers/saction1.jpg"
                 className="h-auto max-w-full w-full  "
-                width={1200}
-                height={1200}
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                }}
+                width={6240}
+                height={2153}
                 alt="Explorem"
               />
 
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="bg-[#ffff]  w-full items-center flex flex-col gap-2 capitalize p-2 lg:p-9 text-[#0149A6]">
-                  <h1 className="lg:text-4xl text-md font-bold">
-                    <span>{t("titleEmployers")}</span>
-                  </h1>
+                  <div className="lg:text-4xl text-md font-bold">
+                    <h1>{t("titleEmployers")}</h1>
+                  </div>
                 </div>
               </div>
             </div>
             <h2 className=" bg-[#0149A6]   font-bold lg:text-3xl text-md text-[#ffff] text-center p-4  ">
-              <span>{t("descriptionEmployers")}</span>
+              {t("descriptionEmployers")}
             </h2>
           </div>
 
-          <div className="px-2 flex flex-col gap-4  list-outside ">
+          <div className="px-2 grid grid-cols-1 lg:grid-cols-2  container gap-4  list-outside ">
             {services.map((ele, index) => (
               <div
                 key={index}
@@ -133,8 +116,8 @@ export default function Employers() {
                   <Image
                     src="/image/aboutUS/logoHand.png"
                     className="w-20 lg:w-24"
-                    width={1200}
-                    height={550}
+                    width={195}
+                    height={159}
                     style={{
                       maxWidth: "100%",
                       height: "auto",
@@ -165,8 +148,8 @@ export default function Employers() {
                 <Image
                   src="/image/aboutUS/logoHand.png"
                   className="w-20 lg:w-24"
-                  width={1200}
-                  height={550}
+                  width={195}
+                  height={159}
                   style={{
                     maxWidth: "100%",
                     height: "auto",

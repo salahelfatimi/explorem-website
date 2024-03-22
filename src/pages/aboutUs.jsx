@@ -37,8 +37,8 @@ export default function AboutUs() {
           <Image
             src="/image/aboutUS/saction1.jpg"
             className="h-auto max-w-full w-full  "
-            width={1200}
-            height={550}
+            width={1280}
+            height={612}
             style={{
               maxWidth: "100%",
               height: "auto",
@@ -74,8 +74,8 @@ export default function AboutUs() {
         <Image
           src="/image/aboutUS/slogen1.jpg"
           className="lg:w-1/3 rounded-xl"
-          width={1200}
-          height={550}
+          width={6240}
+          height={3512}
           style={{
             maxWidth: "100%",
             height: "auto",
@@ -91,8 +91,8 @@ export default function AboutUs() {
           <p className=" lg:text-lg font-medium">{t("grid.grid1.text")}</p>
         </span>
         <Image
-          width={500}
-          height={500}
+          width={195}
+          height={159}
           src="/image/aboutUS/logoHand.png"
           className="w-36"
           alt="Explorem"
@@ -128,8 +128,8 @@ export default function AboutUs() {
           <Image
             src="/image/aboutUS/logoHand.png"
             className="w-20 lg:w-24"
-            width={1200}
-            height={550}
+            width={195}
+            height={159}
             style={{
               maxWidth: "100%",
               height: "auto",
