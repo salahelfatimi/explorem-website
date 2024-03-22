@@ -161,10 +161,10 @@ export default function Index() {
         </div>
         <div className=" p-8 bg-[url('/image/aboutUS/saction2.jpg')] bg-cover ">
           <div className="  grid grid-cols-1  gap-6 md:grid-cols-2 lg:grid-cols-4 justify-around  rounded   ">
-            <div className=" flex flex-col gap-4 items-center justify-center bg-[#0149a6]  lg:p-16 p-6  rounded-md">
-              <Users size={40} className=" stroke-white" />
-              <p className=" text-2xl font-bold text-white">+ 2000</p>
-              <p className=" text-xl font-bold text-white">STUDENTS</p>
+            <div className=" flex flex-col gap-4 items-center justify-center bg-[#fff]  lg:p-16 p-6  rounded-md">
+              <Users size={40} className=" stroke-[#0149a6]" />
+              <p className=" text-2xl font-bold text-[#0149a6]">+ 2000</p>
+              <p className=" text-xl font-bold text-[#0149a6]">STUDENTS</p>
             </div>
             <div className=" flex flex-col gap-4 items-center justify-center bg-[#0149a6]  lg:py-16 p-6  rounded-md">
               <Folder size={40} className=" stroke-white" />
@@ -173,10 +173,10 @@ export default function Index() {
                 LEARNING PRORAMMES
               </p>
             </div>
-            <div className=" flex flex-col gap-4 items-center justify-center bg-[#0149a6] lg:py-16 p-6  rounded-md">
-              <PenTool size={40} className=" stroke-white" />
-              <p className=" text-2xl font-bold text-white">10</p>
-              <p className=" text-xl font-bold text-white">TEACHERS</p>
+            <div className=" flex flex-col gap-4 items-center justify-center bg-[#fff] lg:py-16 p-6  rounded-md">
+              <PenTool size={40} className=" stroke-[#0149a6]" />
+              <p className=" text-2xl font-bold text-[#0149a6]">10</p>
+              <p className=" text-xl font-bold text-[#0149a6]">TEACHERS</p>
             </div>
             <div className="  flex flex-col gap-4 items-center justify-center bg-[#0149a6]  lg:py-16 p-6  rounded-md">
               <Briefcase size={40} className=" stroke-white" />
@@ -186,6 +186,14 @@ export default function Index() {
               </p>
             </div>
           </div>
+        </div>
+        <div>
+              <div>
+                   
+              </div>
+              <div>
+                
+              </div>
         </div>
       </div>
     </>

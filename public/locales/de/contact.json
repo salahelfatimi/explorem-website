@@ -3,6 +3,7 @@
     "title": "Kontaktieren Sie uns",
     "firstName": "Vorname",
     "lastName": "Nachname",
+    "tele": "Telefoon",
     "email": "E-Mail",
     "subject":"Thema",
     "message": "Nachricht",

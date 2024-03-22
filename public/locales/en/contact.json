@@ -4,6 +4,7 @@
     "firstName": "First Name",
     "lastName": "Last Name",
     "email": "Email",
+    "tele": "Phone",
     "subject":"subject",
     "message": "message",
     "send": "Send"

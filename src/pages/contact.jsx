@@ -1,6 +1,8 @@
 import { Mail, MapPin, Phone } from "react-feather";
+import toast, { Toaster } from "react-hot-toast";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import { useState } from "react";
 export async function getStaticProps({ locale }) {
   return {
     props: {
@@ -11,14 +13,87 @@ export async function getStaticProps({ locale }) {
 
 export default function Contact() {
   const { t } = useTranslation("contact");
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    tele: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const sendEmail = async (e) => {
+    e.preventDefault();
+    if (!formData.firstName) {
+      return toast.error("Please enter your firstName");
+    }
+    if (!formData.lastName) {
+      return toast.error("Please enter your lastName");
+    }
+    if (!formData.tele) {
+      return toast.error("Please enter your phone number");
+    }
+    if (!formData.email) {
+      return toast.error("Please enter a email");
+    }
+    if (!formData.subject) {
+      return toast.error("Please enter a subject");
+    }
+    if (!formData.message) {
+      return toast.error("Please enter a message");
+    }
+    const response = await fetch("/api/send", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+    if (response.status === 200) {
+      setFormData({
+        firstName: "",
+        lastName: "",
+        tele: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+      toast.success(
+        `Hey ${formData.firstName}, your message was sent successfully! I Will Contact you soon! 👋`,
+        {
+          position: "bottom-right",
+          duration: 7000,
+        }
+      );
+    } else {
+      toast.error(
+        `Hello ${formData.firstName}, it appears that your previous message was not sent successfully. Please try sending it again later. `,
+        {
+          position: "bottom-right",
+          duration: 7000,
+        }
+      );
+    }
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
   return (
     <>
       <div className="">
+      <Toaster  toastOptions={{
+          className: 'dark:bg-[#121212] dark:text-white bg-white text-black ',
+        }}/>
+
         <div className="relative w-full h-96 ">
           <iframe
             className="absolute top-0 left-0 w-full h-full"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d849.2267858554978!2d-8.0121684!3d31.6363927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8fca7a678f%3A0x7c1f72dd20c997ac!2s6%20Rue%20des%20Vieux%20Marrakechis%2C%20Marrakech%2040000!5e0!3m2!1sen!2sma!4v1710868954732!5m2!1sen!2sma"
-           
             allowFullScreen
             style={{ border: 0 }}
             aria-hidden="false"
@@ -28,7 +103,7 @@ export default function Contact() {
         <div className=" px-4 lg:px-[10rem]  ">
           <div className="bg-[#ffffff] drop-shadow-xl relative bottom-24 py-12 px-5 ">
             <div className=" grid grid-cols-1  lg:grid-cols-2 gap-4">
-              <form className="space-y-3">
+              <form className="space-y-3 " onSubmit={sendEmail}>
                 <div className="pb-4">
                   <span className="text-[#0149a6] font-bold  text-xl ">
                     {t("GetInTouch.title")}
@@ -36,6 +111,8 @@ export default function Contact() {
                 </div>
                 <div className="flex justify-between gap-4">
                   <input
+                    value={formData.firstName}
+                    onChange={handleInputChange}
                     type="text"
                     name="firstName"
                     id="firstName"
@@ -43,6 +120,8 @@ export default function Contact() {
                     placeholder={t("GetInTouch.firstName")}
                   />
                   <input
+                    value={formData.lastName}
+                    onChange={handleInputChange}
                     type="text"
                     name="lastName"
                     id="lastName"
@@ -50,21 +129,39 @@ export default function Contact() {
                     placeholder={t("GetInTouch.lastName")}
                   />
                 </div>
+                <div className="flex justify-between gap-4">
+                  <input
+                    value={formData.email}
+                    onChange={handleInputChange}
+                    type="email"
+                    name="email"
+                    id="email"
+                    className="bg-[#ffffff] w-1/2 h-8 border p-4 font-mono text-xs"
+                    placeholder={t("GetInTouch.email")}
+                  />
+                  <input
+                    value={formData.tele}
+                    onChange={handleInputChange}
+                    type="tel"
+                    name="tele"
+                    id="tele"
+                    className="bg-[#ffffff] w-1/2 h-8 border p-4 font-mono text-xs"
+                    placeholder={t("GetInTouch.tele")}
+                  />
+                </div>
+
                 <input
-                  type="email"
-                  name="Email"
-                  id="Email"
-                  className="bg-[#ffffff] w-full h-8 border p-4 font-mono text-xs"
-                  placeholder={t("GetInTouch.email")}
-                />
-                <input
+                  value={formData.subject}
+                  onChange={handleInputChange}
                   type="text"
-                  name="Subject"
-                  id="Subject"
+                  name="subject"
+                  id="subject"
                   className="bg-[#ffffff] w-full h-8 border p-4 font-mono text-xs"
                   placeholder={t("GetInTouch.subject")}
                 />
                 <textarea
+                  value={formData.message}
+                  onChange={handleInputChange}
                   className="form-control bg-[#ffffff] border  py-2 px-4 w-full font-mono text-xs"
                   name="message"
                   id="message"
