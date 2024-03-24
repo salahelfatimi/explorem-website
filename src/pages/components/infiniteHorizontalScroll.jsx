@@ -27,20 +27,16 @@ const InfiniteHorizontalScroll = ({ images }) => {
         },
         "@0.75": {
           slidesPerView: 2,
-          spaceBetween: 20,
+          spaceBetween: 10,
         },
         "@1.00": {
           slidesPerView: 3,
-          spaceBetween: 40,
+          spaceBetween: 10,
         },
         "@1.50": {
           slidesPerView: 4,
-          spaceBetween: 50,
-        },
-        "@1.75": {
-          slidesPerView: 5,
-          spaceBetween: 60,
-        },
+          spaceBetween: 10,
+        }
       }}
     >
       {images?.map((ele, index) => (
