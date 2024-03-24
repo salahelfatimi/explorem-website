@@ -8,6 +8,7 @@ import "swiper/css";
 const InfiniteHorizontalScroll = ({ images }) => {
   return (
     <Swiper
+   
       modules={[Autoplay, Grid, FreeMode,Mousewheel, Controller]}
       autoplay={{
         "delay": 3000,
@@ -39,7 +40,7 @@ const InfiniteHorizontalScroll = ({ images }) => {
       }}
     >
       {images?.map((ele, index) => (
-        <SwiperSlide key={index}>
+        <SwiperSlide key={index} className=" ">
           <Image
             width={1200}
             priority={false}

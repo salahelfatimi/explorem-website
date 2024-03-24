@@ -64,7 +64,7 @@ export default function Index() {
       svg: "passport.svg",
     },
   ];
- 
+
   return (
     <>
       <div className="bg-[#F5F5F5]  space-y-8 py-12">
@@ -98,8 +98,10 @@ export default function Index() {
             </Link>
           </div>
         </div>
-        <div className="bg-[#0149a6] py-6">
-          <InfiniteHorizontalScroll images={images} />
+        <div className="bg-[#0149a6] py-6 ">
+          <div className="px-2">
+            <InfiniteHorizontalScroll images={images} />
+          </div>
         </div>
         <div>
           <div className=" container grid items-center gap-4  grid-cols-1  lg:grid-cols-2">
@@ -190,7 +192,7 @@ export default function Index() {
           </div>
         </div>
         <div>
-            <TestimonialsSlider/>
+          <TestimonialsSlider />
         </div>
       </div>
     </>

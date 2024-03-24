@@ -129,8 +129,10 @@ export default function Employers() {
                   </span>
                 </span>
               </div>
-              <div className="bg-[#0149a6] py-6">
-                <InfiniteHorizontalScroll images={Partners} />
+              <div className="bg-[#0149a6] py-6 ">
+                <div className="px-2">
+                  <InfiniteHorizontalScroll images={Partners} />
+                </div>
               </div>
               <div className=" container">
                 <div className="bg-[#0149A6] rounded-md px-4 py-10  ">
