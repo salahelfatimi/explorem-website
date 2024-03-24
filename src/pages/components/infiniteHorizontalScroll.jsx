@@ -11,33 +11,16 @@ const InfiniteHorizontalScroll = ({ images }) => {
    
       modules={[Autoplay, Grid, FreeMode,Mousewheel, Controller]}
       autoplay={{
-        "delay": 3000,
+        "delay": 2500,
         "disableOnInteraction": false
       }}
     
       mousewheel={false}
-      slidesPerView={1}
-      spaceBetween={20}
+      slidesPerView={5}
+      spaceBetween={10}
       freeMode={true}
       loop={true}
-      breakpoints={{
-        "@0.00": {
-          slidesPerView: 1,
-          spaceBetween: 10,
-        },
-        "@0.75": {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        "@1.00": {
-          slidesPerView: 3,
-          spaceBetween: 40,
-        },
-        "@1.50": {
-          slidesPerView: 4,
-          spaceBetween: 50,
-        },
-      }}
+     
     >
       {images?.map((ele, index) => (
         <SwiperSlide key={index} className=" ">

@@ -64,8 +64,12 @@ export default function Employers() {
     { src: "/image/employers/partnersGrid/imagePartners3.jpg" },
     { src: "/image/employers/partnersGrid/imagePartners4.jpg" },
     { src: "/image/employers/partnersGrid/imagePartners5.jpg" },
-    { src: "/image/employers/partnersGrid/imagePartners1.jpg" },
     { src: "/image/employers/partnersGrid/imagePartners6.jpg" },
+    { src: "/image/employers/partnersGrid/imagePartners1.jpg" },
+    { src: "/image/employers/partnersGrid/imagePartners7.jpg" },
+    { src: "/image/employers/partnersGrid/imagePartners8.jpg" },
+    { src: "/image/employers/partnersGrid/imagePartners9.jpg" },
+    { src: "/image/employers/partnersGrid/imagePartners10.jpg" },
   ];
   return (
     <>
