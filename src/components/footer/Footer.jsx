@@ -11,7 +11,7 @@ import {
 
 export default function Footer() {
   return (
-    <div className="bg-[#22242B]">
+    <footer className="bg-[#22242B]">
       <div className=" py-20 container gap-8 flex flex-col lg:flex-row items-center justify-between">
         <div className=" flex flex-col   gap-4">
           <span className="flex flex-col lg:flex-row text-center items-center hover:underline decoration-4 underline-offset-4 hover:duration-700 transition  decoration-[#0149A6] gap-2">
@@ -105,6 +105,6 @@ export default function Footer() {
           </span>
         </span>
       </div>
-    </div>
+    </footer>
   );
 }

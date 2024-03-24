@@ -86,7 +86,7 @@ export default function Contact() {
   return (
     <>
       <div className="">
-      <Toaster  toastOptions={{
+         <Toaster  toastOptions={{
           className: 'dark:bg-[#121212] dark:text-white bg-white text-black ',
         }}/>
 

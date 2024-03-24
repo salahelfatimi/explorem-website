@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <>
       {/* nav pc */}
-      <div className=" hidden fixed bg-white right-0 left-0 lg:block z-50 ">
+      <nav className=" hidden fixed bg-white right-0 left-0 lg:block z-50 ">
         <div className="  container  px-8  py-4 flex  flex-row justify-between items-center ">
           <div>
             <Image
@@ -66,7 +66,7 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-      </div>
+      </nav>
 
       {/* nav phone */}
       <div className=" block fixed bg-white right-0 left-0 lg:hidden z-50">
