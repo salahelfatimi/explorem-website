@@ -63,6 +63,30 @@ export default function Index() {
       svg: "passport.svg",
     },
   ];
+  const testimonials = [
+    {
+      id: 1,
+      fullName: "salaheddine elfatimi",
+      Comment: " Tabula language school is a MUST for anyone interested in bettering their testing skills.",
+      date: "02/11/2021",
+      job:"student"
+
+    },
+    {
+      id: 1,
+      fullName: "salaheddine elfatimi",
+      Comment: " Tabula language school is a MUST for anyone interested in bettering their testing skills.",
+      date: "02/11/2021",
+      job:"student"
+    },
+    {
+      id: 1,
+      fullName: "salaheddine elfatimi",
+      Comment: " Tabula language school is a MUST for anyone interested in bettering their testing skills.",
+      date: "02/11/2021",
+      job:"student"
+    },
+  ];
   return (
     <>
       <div className="bg-[#F5F5F5]  space-y-8 py-12">
@@ -188,12 +212,10 @@ export default function Index() {
           </div>
         </div>
         <div>
-              <div>
-                   
-              </div>
-              <div>
-                
-              </div>
+          
+          <div>
+           
+          </div>
         </div>
       </div>
     </>
