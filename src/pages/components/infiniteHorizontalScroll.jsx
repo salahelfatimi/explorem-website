@@ -15,10 +15,7 @@ const InfiniteHorizontalScroll = ({ images }) => {
   return (
     <Swiper
       modules={[Autoplay, Grid, FreeMode, Mousewheel, Controller]}
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
+      autoplay
       mousewheel={false}
       slidesPerView={1}
       spaceBetween={10}

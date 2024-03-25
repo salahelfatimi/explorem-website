@@ -69,6 +69,7 @@ const TestimonialsSlider = () => {
       <div className="mb-10 ">
         <span className="lg:text-4xl capitalize text-[#0149a6] font-medium text-center block mb-2">
           testimonial
+
         </span>
         <h2 className="lg:text-2xl text-center capitalize font-bold text-gray-900 ">
           What our happy student says!
@@ -76,10 +77,7 @@ const TestimonialsSlider = () => {
       </div>
       <Swiper
         modules={[Autoplay, Grid, FreeMode, Mousewheel, Controller]}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+        autoplay
         mousewheel={false}
         slidesPerView={1}
         spaceBetween={10}
