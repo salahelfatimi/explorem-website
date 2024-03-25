@@ -2,19 +2,23 @@
 
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Controller, FreeMode, Grid, Mousewheel } from "swiper/modules";
+import {
+  Autoplay,
+  Controller,
+  FreeMode,
+  Grid,
+  Mousewheel,
+} from "swiper/modules";
 
 import "swiper/css";
 const InfiniteHorizontalScroll = ({ images }) => {
   return (
     <Swiper
-   
-      modules={[Autoplay, Grid, FreeMode,Mousewheel, Controller]}
+      modules={[Autoplay, Grid, FreeMode, Mousewheel, Controller]}
       autoplay={{
-        "delay": 3000,
-        "disableOnInteraction": false
+        delay: 2500,
+        disableOnInteraction: false,
       }}
-    
       mousewheel={false}
       slidesPerView={1}
       spaceBetween={10}
@@ -36,7 +40,7 @@ const InfiniteHorizontalScroll = ({ images }) => {
         "@1.50": {
           slidesPerView: 4,
           spaceBetween: 10,
-        }
+        },
       }}
     >
       {images?.map((ele, index) => (
@@ -46,7 +50,7 @@ const InfiniteHorizontalScroll = ({ images }) => {
             priority={false}
             height={550}
             src={ele.src}
-            className=" rounded-md h-64 object-cover "
+            className=" rounded-sm h-64 object-cover "
             alt="explorem"
           />
         </SwiperSlide>
