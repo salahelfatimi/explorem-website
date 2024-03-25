@@ -65,7 +65,7 @@ const TestimonialsSlider = () => {
     },
   ];
   return (
-    <div className=" container">
+    <div className=" container p-2">
       <div className="mb-10 ">
         <span className="lg:text-4xl capitalize text-[#0149a6] font-medium text-center block mb-2">
           testimonial
