@@ -13,14 +13,14 @@ import {
 import "swiper/css";
 const InfiniteHorizontalScroll = ({ images }) => {
   return (
-    <div class="relative gap-4 flex overflow-x-hidden">
+    <div class="relative space-x-4 flex overflow-x-hidden">
       <div class="py-12 gap-4 flex animate-marquee whitespace-nowrap">
         {images?.map((ele, index) => (
          
             <Image
             key={index}
-              width={1200}
-              priority={false}
+              width={550}
+              
               height={550}
               src={ele.src}
               className="max-w-none rounded-sm h-64 w-auto"
@@ -35,8 +35,8 @@ const InfiniteHorizontalScroll = ({ images }) => {
          
             <Image
             key={index}
-              width={1200}
-              priority={false}
+              width={550}
+              
               height={550}
               src={ele.src}
               className="max-w-none rounded-sm h-64 w-auto"
