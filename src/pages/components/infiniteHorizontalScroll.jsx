@@ -18,6 +18,7 @@ const InfiniteHorizontalScroll = ({ images }) => {
         {images?.map((ele, index) => (
          
             <Image
+            key={index}
               width={1200}
               priority={false}
               height={550}
@@ -33,6 +34,7 @@ const InfiniteHorizontalScroll = ({ images }) => {
         {images?.map((ele, index) => (
          
             <Image
+            key={index}
               width={1200}
               priority={false}
               height={550}
