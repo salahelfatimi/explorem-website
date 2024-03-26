@@ -13,39 +13,46 @@ import {
 import "swiper/css";
 const InfiniteHorizontalScroll = ({ images }) => {
   return (
-    <div class="relative space-x-4 flex overflow-x-hidden">
-      <div class="py-12 gap-4 flex animate-marquee whitespace-nowrap">
-        {images?.map((ele, index) => (
-         
-            <Image
-            key={index}
-              width={1920}
-              
-              height={1080}
-              src={ele.src}
-              className="max-w-none rounded-sm h-64 w-auto"
-              alt="explorem"
-            />
-          
-        ))}
-      </div>
-
-      <div class="absolute gap-4 flex top-0 py-12 animate-marquee2 whitespace-nowrap">
-        {images?.map((ele, index) => (
-         
-            <Image
-            key={index}
-              width={550}
-              
-              height={550}
-              src={ele.src}
-              className="max-w-none rounded-sm h-64 w-auto"
-              alt="explorem"
-            />
-         
-        ))}
-      </div>
-    </div>
+    <Swiper
+      modules={[Autoplay, Grid, FreeMode, Mousewheel, Controller]}
+      autoplay
+      mousewheel={false}
+      slidesPerView={1}
+      spaceBetween={10}
+      freeMode={true}
+      loop={true}
+      breakpoints={{
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        "@1.00": {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        "@1.50": {
+          slidesPerView: 4,
+          spaceBetween: 10,
+        },
+      }}
+    >
+      {images?.map((ele, index) => (
+        <SwiperSlide key={index} className=" ">
+          <Image
+            width={800}
+            priority={false}
+            height={550}
+            src={ele.src}
+            className=" rounded-sm h-64 object-cover "
+            alt="explorem"
+          />
+        </SwiperSlide>
+      ))}
+    </Swiper>
   );
 };
 
