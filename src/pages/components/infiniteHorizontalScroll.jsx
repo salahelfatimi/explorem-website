@@ -46,6 +46,7 @@ const InfiniteHorizontalScroll = ({ images }) => {
             width={800}
             priority={false}
             height={550}
+            loading="lazy"
             src={ele.src}
             className=" rounded-sm h-64 object-cover "
             alt="explorem"
