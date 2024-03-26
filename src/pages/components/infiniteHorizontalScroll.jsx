@@ -19,9 +19,9 @@ const InfiniteHorizontalScroll = ({ images }) => {
          
             <Image
             key={index}
-              width={550}
+              width={1920}
               
-              height={550}
+              height={1080}
               src={ele.src}
               className="max-w-none rounded-sm h-64 w-auto"
               alt="explorem"
