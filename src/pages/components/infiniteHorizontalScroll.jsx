@@ -13,23 +13,37 @@ import {
 import "swiper/css";
 const InfiniteHorizontalScroll = ({ images }) => {
   return (
-    <div class="relative flex overflow-x-hidden">
-  <div class="py-12 animate-marquee whitespace-nowrap">
-    <span class="mx-4 text-4xl">Marquee Item 1</span>
-    <span class="mx-4 text-4xl">Marquee Item 2</span>
-    <span class="mx-4 text-4xl">Marquee Item 3</span>
-    <span class="mx-4 text-4xl">Marquee Item 4</span>
-    <span class="mx-4 text-4xl">Marquee Item 5</span>
-  </div>
+    <div class="relative gap-4 flex overflow-x-hidden">
+      <div class="py-12 gap-4 flex animate-marquee whitespace-nowrap">
+        {images?.map((ele, index) => (
+         
+            <Image
+              width={1200}
+              priority={false}
+              height={550}
+              src={ele.src}
+              className="max-w-none rounded-sm h-64 w-auto"
+              alt="explorem"
+            />
+          
+        ))}
+      </div>
 
-  <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-    <span class="mx-4 text-4xl">Marquee Item 1</span>
-    <span class="mx-4 text-4xl">Marquee Item 2</span>
-    <span class="mx-4 text-4xl">Marquee Item 3</span>
-    <span class="mx-4 text-4xl">Marquee Item 4</span>
-    <span class="mx-4 text-4xl">Marquee Item 5</span>
-  </div>
-</div>
+      <div class="absolute gap-4 flex top-0 py-12 animate-marquee2 whitespace-nowrap">
+        {images?.map((ele, index) => (
+         
+            <Image
+              width={1200}
+              priority={false}
+              height={550}
+              src={ele.src}
+              className="max-w-none rounded-sm h-64 w-auto"
+              alt="explorem"
+            />
+         
+        ))}
+      </div>
+    </div>
   );
 };
 
