@@ -12,7 +12,6 @@
     "@headlessui/react": "^1.7.18",
     "@vercel/analytics": "^1.2.2",
     "@vercel/speed-insights": "^1.0.10",
-    "framer-motion": "^11.0.22",
     "i18next": "^23.10.1",
     "next": "14.0.1",
     "next-i18next": "^15.2.0",

@@ -1,59 +1,39 @@
 "use client";
 
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Autoplay,
-  Controller,
-  FreeMode,
-  Grid,
-  Mousewheel,
-} from "swiper/modules";
 
-import "swiper/css";
 const InfiniteHorizontalScroll = ({ images }) => {
   return (
-    <Swiper
-      modules={[Autoplay, Grid, FreeMode, Mousewheel, Controller]}
-      autoplay
-      mousewheel={false}
-      slidesPerView={1}
-      spaceBetween={10}
-      freeMode={true}
-      loop={true}
-      breakpoints={{
-        "@0.00": {
-          slidesPerView: 1,
-          spaceBetween: 10,
-        },
-        "@0.75": {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        "@1.00": {
-          slidesPerView: 3,
-          spaceBetween: 10,
-        },
-        "@1.50": {
-          slidesPerView: 4,
-          spaceBetween: 10,
-        },
-      }}
-    >
-      {images?.map((ele, index) => (
-        <SwiperSlide key={index} className=" ">
-          <Image
-            width={800}
-            priority={false}
-            height={550}
-            loading="lazy"
-            src={ele.src}
-            className=" rounded-sm h-64 object-cover "
-            alt="explorem"
-          />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className="flex overflow-hidden space-x-4   ">
+      <div className="flex space-x-4 lg:animate-loop-scroll">
+        {images?.map((ele, index) => (
+          <div key={index}>
+            <Image
+              width={1200}
+              priority={false}
+              height={550}
+              src={ele.src}
+              className="max-w-none rounded-sm h-52 w-auto"
+              alt="explorem"
+            />
+          </div>
+        ))}
+      </div>
+      <div className="flex space-x-4 lg:animate-loop-scroll" aria-hidden="true">
+        {images?.map((ele, index) => (
+          <div key={index}>
+            <Image
+              width={1200}
+              priority={false}
+              height={550}
+              src={ele.src}
+              className="max-w-none rounded-sm h-52 w-auto"
+              alt="explorem"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 
