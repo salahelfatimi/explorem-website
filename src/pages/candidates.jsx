@@ -97,8 +97,9 @@ export default function Candidates() {
             <Image
               src="/image/candidates/saction1.jpg"
               className="h-auto max-w-full w-full  "
-              width={6240}
-              height={2528}
+              width={1920}
+              height={1080}
+             
               alt="Explorem"
             />
 

@@ -82,6 +82,7 @@ export default function Employers() {
                 className="h-auto max-w-full w-full  "
                 width={6240}
                 height={2153}
+                quality={50}
                 alt="Explorem"
               />
 

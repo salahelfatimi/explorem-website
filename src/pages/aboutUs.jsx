@@ -37,12 +37,10 @@ export default function AboutUs() {
           <Image
             src="/image/aboutUS/saction1.jpg"
             className="h-auto max-w-full w-full  "
-            width={1280}
-            height={612}
-            style={{
-              maxWidth: "100%",
-              height: "auto",
-            }}
+            width={1920}
+            height={1080}
+            
+
             alt="Explorem"
           />
 
@@ -74,12 +72,8 @@ export default function AboutUs() {
         <Image
           src="/image/aboutUS/slogen1.jpg"
           className="lg:w-1/3 rounded-xl"
-          width={6240}
-          height={3512}
-          style={{
-            maxWidth: "100%",
-            height: "auto",
-          }}
+          width={500}
+          height={500}
           alt="Explorem"
         />
       </div>
