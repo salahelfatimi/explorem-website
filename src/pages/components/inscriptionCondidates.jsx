@@ -16,6 +16,13 @@ function InscriptionCondidates() {
 
   const sendPdf = async (e) => {
     e.preventDefault();
+    const formDataToSend = new FormData();
+    formDataToSend.append("file", formData.pdf);
+    formDataToSend.append("firstName", formData.firstName);
+    formDataToSend.append("lastName", formData.lastName);
+    formDataToSend.append("tele", formData.tele);
+    formDataToSend.append("email", formData.email);
+
     if (!formData.firstName) {
       return toast.error("Please enter your First Name");
     }
@@ -28,49 +35,39 @@ function InscriptionCondidates() {
     if (!formData.pdf) {
       return toast.error("Please upload your pdf");
     }
-    const formDataToSend = new FormData();
-    formDataToSend.append("file", formData.pdf);
-    formDataToSend.append("firstName", formData.firstName);
-    formDataToSend.append("lastName", formData.lastName);
-    formDataToSend.append("tele", formData.tele);
-    formDataToSend.append("email", formData.email);
 
-    try {
-      const response = await fetch("/api/upload", {
-        method: "POST",
-        body: formDataToSend,
+    const response = await fetch("/api/upload", {
+      method: "POST",
+      body: formDataToSend,
+    });
+
+    if (response.status === 200) {
+      setFormData({
+        firstName: "",
+        lastName: "",
+        tele: "",
+        email: "",
+        pdf: null,
       });
-
-      if (response.status === 200) {
-        setFormData({
-          firstName: "",
-          lastName: "",
-          tele: "",
-          email: "",
-          pdf: null,
-        });
-        toast.success(
-          `Hey ${formData.firstName}, your message was sent successfully! I will contact you soon! 👋`,
-          {
-            position: "bottom-right",
-            duration: 7000,
-          }
-        );
-        // Reset the file input field using the ref
-        if (fileInputRef.current) {
-          fileInputRef.current.value = ""; // Reset the input value to empty
+      toast.success(
+        `Hey ${formData.firstName}, your message was sent successfully! I will contact you soon! 👋`,
+        {
+          position: "bottom-right",
+          duration: 7000,
         }
-      } else {
-        toast.error(
-          `Hello ${formData.firstName}, it appears that your previous message was not sent successfully. Please try sending it again later.`,
-          {
-            position: "bottom-right",
-            duration: 7000,
-          }
-        );
+      );
+      // Reset the file input field using the ref
+      if (fileInputRef.current) {
+        fileInputRef.current.value = ""; // Reset the input value to empty
       }
-    } catch (error) {
-      console.error(error);
+    } else {
+      toast.error(
+        `Hello ${formData.firstName}, it appears that your previous message was not sent successfully. Please try sending it again later.`,
+        {
+          position: "bottom-right",
+          duration: 7000,
+        }
+      );
     }
   };
 
