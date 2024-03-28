@@ -49,8 +49,7 @@ export const POST = async (req, res) => {
       }),
     });
 
-    // Delete the PDF file after sending the email
-    await fsPromises.unlink(filePath);
+    
 
     
     return Response.json(data);
