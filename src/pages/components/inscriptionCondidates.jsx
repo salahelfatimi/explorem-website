@@ -36,38 +36,42 @@ function InscriptionCondidates() {
       return toast.error("Please upload your pdf");
     }
 
-    const response = await fetch("/api/upload", {
-      method: "POST",
-      body: formDataToSend,
-    });
-
-    if (response.status === 200) {
-      setFormData({
-        firstName: "",
-        lastName: "",
-        tele: "",
-        email: "",
-        pdf: null,
+    try {
+      const response = await fetch("/api/upload", {
+        method: "POST",
+        body: formDataToSend,
       });
-      toast.success(
-        `Hey ${formData.firstName}, your message was sent successfully! I will contact you soon! 👋`,
-        {
-          position: "bottom-right",
-          duration: 7000,
+
+      if (response.status === 200) {
+        setFormData({
+          firstName: "",
+          lastName: "",
+          tele: "",
+          email: "",
+          pdf: null,
+        });
+        toast.success(
+          `Hey ${formData.firstName}, your message was sent successfully! I will contact you soon! 👋`,
+          {
+            position: "bottom-right",
+            duration: 7000,
+          }
+        );
+        // Reset the file input field using the ref
+        if (fileInputRef.current) {
+          fileInputRef.current.value = ""; // Reset the input value to empty
         }
-      );
-      // Reset the file input field using the ref
-      if (fileInputRef.current) {
-        fileInputRef.current.value = ""; // Reset the input value to empty
+      } else {
+        toast.error(
+          `Hello ${formData.firstName}, it appears that your previous message was not sent successfully. Please try sending it again later.`,
+          {
+            position: "bottom-right",
+            duration: 7000,
+          }
+        );
       }
-    } else {
-      toast.error(
-        `Hello ${formData.firstName}, it appears that your previous message was not sent successfully. Please try sending it again later.`,
-        {
-          position: "bottom-right",
-          duration: 7000,
-        }
-      );
+    } catch (error) {
+      console.error(error);
     }
   };
 
