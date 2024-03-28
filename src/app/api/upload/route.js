@@ -36,12 +36,12 @@ export const POST = async (req, res) => {
       from: `${lastName}onboarding@resend.dev`,
       to: "salahfatimi76@gmail.com",
       subject: "condidatios",
-      attachments: [
-        {
-          filename: filename,
-          content: fileBuffer,
-        },
-      ],
+      // attachments: [
+      //   {
+      //     filename: filename,
+      //     content: fileBuffer,
+      //   },
+      // ],
       react: EmailTemplateCondidates({
         firstName: firstName,
         lastName: lastName,
