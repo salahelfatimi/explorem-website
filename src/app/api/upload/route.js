@@ -3,7 +3,7 @@ import path from "path";
 import { writeFile, readFile, unlink } from "fs/promises"; // Import unlink for file deletion
 import { EmailTemplateCondidates } from "@/components/email-template-conditates";
 import { Resend } from "resend";
-process.noDeprecation = true;
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 export const POST = async (req, res) => {
   const formData = await req.formData();
@@ -28,9 +28,11 @@ export const POST = async (req, res) => {
       buffer
     );
 
-    const fileBuffer = await readFile(
+    const fileData = await readFile(
       path.join(process.cwd(), "public/pdf/" + filename)
     );
+
+    const base64Data = fileData.toString("base64");
 
     const data = await resend.emails.send({
       from: `${lastName}onboarding@resend.dev`,
@@ -39,7 +41,7 @@ export const POST = async (req, res) => {
       attachments: [
         {
           filename: filename,
-          content: fileBuffer,
+          content: base64Data, // Use base64-encoded string as attachment content
         },
       ],
       react: EmailTemplateCondidates({
