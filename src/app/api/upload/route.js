@@ -28,7 +28,7 @@ export const POST = async (req, res) => {
       buffer
     );
 
-    const fileData = await readFile(
+    const fileBuffer = await readFile(
       path.join(process.cwd(), "public/pdf/" + filename)
     );
 
@@ -39,7 +39,7 @@ export const POST = async (req, res) => {
       attachments: [
         {
           filename: filename,
-          content: fileData.toString("base64"), // Convert buffer to base64-encoded string
+          content: fileBuffer,
         },
       ],
       react: EmailTemplateCondidates({
