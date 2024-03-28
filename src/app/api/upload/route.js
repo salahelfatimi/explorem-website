@@ -29,7 +29,7 @@ export const POST = async (req, res) => {
     // Use pipeline to handle the stream and write the file
     await pipeline(file.stream(), writeStream);
 
-    const fileBuffer = await fsPromises.readFile(filePath);
+   
 
     const data = await resend.emails.send({
       from: `${lastName}onboarding@resend.dev`,
@@ -38,7 +38,7 @@ export const POST = async (req, res) => {
       attachments: [
         {
           filename: filename,
-          content: fileBuffer,
+          content: "https://nesin.io/_next/image?url=%2Fstatic%2Fimages%2FAshikNesin.jpg&w=384&q=75",
         },
       ],
       react: EmailTemplateCondidates({
@@ -49,7 +49,8 @@ export const POST = async (req, res) => {
       }),
     });
 
-    
+    // Delete the PDF file after sending the email
+    await fsPromises.unlink(filePath);
 
     
     return Response.json(data);
