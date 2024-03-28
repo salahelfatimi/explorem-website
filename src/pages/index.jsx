@@ -69,15 +69,15 @@ export default function Index() {
     <>
       <div className="bg-[#F5F5F5]  space-y-8 py-12">
         <div className=" flex flex-col items-center justify-center gap-4">
-          <h1 className="flex items-center gap-4 justify-center flex-col text-2xl lg:text-3xl font-extrabold capitalize">
+          <h1 className="flex items-center gap-4 justify-center flex-col text-xl lg:text-2xl font-extrabold capitalize">
             <span>
-              {t("title.line1")}{" "}
+              {t("title.line1")}{"  "}
               <span className="text-[#134BA1] px-2 py-1  bg-white ">
                 {t("title.line2")}
               </span>
             </span>
             <span>
-              {t("title.line3")}{" "}
+              {t("title.line3")}{"  "}
               <span className="bg-[#134BA1] px-2 py-1 text-white  ">
                 {t("title.line4")}
               </span>
@@ -88,13 +88,13 @@ export default function Index() {
               href="/candidates"
               className="bg-[#134BA1] lg:py-3 py-2 transition duration-700 ease-in-out  border-4 border-[#134BA1]  px-6 text-white font-bold rounded-full  capitalize"
             >
-              apply Candidates
+               {t("button.Candidates")}
             </Link>
             <Link
               href="/employers"
               className="bg-[#ffff] lg:py-3 py-2 transition duration-700 ease-in-out  border-4 border-[#134BA1]  px-6 text-[#134BA1] font-bold rounded-full  capitalize"
             >
-              apply employers
+              {t("button.Employers")}
             </Link>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function Index() {
                 key={index}
                 className="flex   bg-white py-2 px-4  shadow rounded-md items-center gap-2"
               >
-                <div className=" border-[#0149a6]  border-4 p-3 rounded-full">
+                <div className=" border-[#0149a6]   border-4 p-3 rounded-full">
                   <Image
                     width={500}
                     height={500}

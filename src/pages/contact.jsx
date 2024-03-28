@@ -175,14 +175,14 @@ export default function Contact() {
               <div className=" space-y-3">
                 <div className="pb-4">
                   <span className="text-[#0149a6] font-bold  text-xl ">
-                    {t("Inforamtion.title")}
+                    {t("Information.title")}
                   </span>
                 </div>
                 <div className="space-y-4">
                   <div className="flex flex-col gap-2     text-black">
                     <span className="flex gap-2 font-semibold text-sm md:text-base items-center border-[#0149a6] border-2 w-auto text-[#0149a6]  rounded p-1 pl-4">
                       <MapPin size={20} className=" stroke-[#0149a6] min-w-8" />
-                      <span className="">{t("Inforamtion.location")}</span>
+                      <span className="">{t("Information.location")}</span>
                     </span>
                     <div className="gap-2  border-l-8 pl-2 border-white flex flex-col ">
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4">
@@ -202,7 +202,7 @@ export default function Contact() {
                         size={20}
                         className=" stroke-[#0149a6] min-w-8  "
                       />
-                      <span className="">{t("Inforamtion.mobile.title")}</span>
+                      <span className="">{t("Information.mobile.title")}</span>
                     </span>
                     <div className="gap-2  border-l-8 pl-2 border-white flex flex-col ">
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4">
@@ -212,7 +212,7 @@ export default function Contact() {
                         >
                           (+212) 6 68 67 65 18{" "}
                           <span>
-                            {t("Inforamtion.mobile.whatsappAvailable")}
+                            {t("Information.mobile.whatsappAvailable")}
                           </span>{" "}
                         </a>
                       </span>
@@ -222,7 +222,7 @@ export default function Contact() {
                           className="flex flex-row gap-1 text-sm "
                         >
                           (+212) 8 09 89 12 97{" "}
-                          <span>{t("Inforamtion.mobile.landline")}</span>
+                          <span>{t("Information.mobile.landline")}</span>
                         </a>
                       </span>
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
@@ -241,7 +241,7 @@ export default function Contact() {
                   <div className="flex flex-col gap-2     text-black">
                     <span className="flex gap-2 font-semibold text-sm md:text-base items-center border-[#0149a6] border-2 w-auto text-[#0149a6]  rounded p-1 pl-4">
                       <Mail size={20} className=" stroke-[#0149A6] min-w-8" />
-                      <span className="">{t("Inforamtion.email.title")}</span>
+                      <span className="">{t("Information.email.title")}</span>
                     </span>
                     <div className="gap-2  border-l-8 pl-2 border-white flex flex-col ">
                       <span className="flex gap-2 border-l-4 border-[#0149a6] w-auto  rounded-r p-1 pl-4 ">
@@ -249,7 +249,7 @@ export default function Contact() {
                           href="mailto: explorem21@gmail.com"
                           className="  text-sm "
                         >
-                          {t("Inforamtion.email.administration")} :
+                          {t("Information.email.administration")} :
                           explorem21@gmail.com
                         </a>
                       </span>
@@ -258,7 +258,7 @@ export default function Contact() {
                           href="mailto: erecruit21@gmail.com"
                           className="  text-sm "
                         >
-                          {t("Inforamtion.email.recruitment")} :
+                          {t("Information.email.recruitment")} :
                           erecruit21@gmail.com
                         </a>
                       </span>
@@ -267,7 +267,7 @@ export default function Contact() {
                           href="mailto: explorem.documents@gmail.com"
                           className="  text-sm "
                         >
-                          {t("Inforamtion.email.documents")} :
+                          {t("Information.email.documents")} :
                           explorem.documents@gmail.com
                         </a>
                       </span>
@@ -276,7 +276,7 @@ export default function Contact() {
                           href="mailto: explorem.nursing@gmail.com"
                           className="  text-sm "
                         >
-                          {t("Inforamtion.email.nursing")} :
+                          {t("Information.email.nursing")} :
                           explorem.nursing@gmail.com
                         </a>
                       </span>

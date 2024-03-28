@@ -1,0 +1,79 @@
+{
+  "titleCandidates": "Unsere besten Dienstleistungen für Kandidaten",
+
+  "services": {
+    "Training/Formation": {
+      "title": "Training/Formation (Sprache und Pflege)",
+      "description": [
+        "Online- und Präsenzkurse für Deutsch (Niveau A1 bis B2)",
+        "Online- und Präsenzkurse für Pflege in Englisch",
+        "Teilnahmebescheinigung bei Abschluss des Levels",
+        "Kostenloses Material während des Unterrichts",
+        "Bezahlbare Gebühren",
+        "Unterstützung durch WhatsApp-Gruppen",
+        "International qualifizierte und kompetente Lehrkräfte",
+        "Besondere Aufmerksamkeit für individuelle Schwächen",
+        "Hohe Erfolgsquote garantiert",
+        "Vorgeschlagene Zeitfenster"
+      ]
+    },
+    "JobPlacement": {
+      "title": "Arbeitsvermittlung",
+      "description": [
+        "Überprüfung des Diploms und Zeugnisses des Kandidaten",
+        "Erstellung des Profils des Kandidaten",
+        "Erstellung eines professionellen Lebenslaufs",
+        "Vermittlung von Kandidaten an Arbeitgeber",
+        "Vereinbarung von Vorstellungsgesprächen mit bereitgestellter Dolmetscherunterstützung",
+        "Vorbereitung auf ein Online- oder persönliches Vorstellungsgespräch",
+        "Sicherstellung eines zweisprachigen Arbeitsvertrags"
+      ]
+    },
+    "VocationalTrainingPlacement": {
+      "title": "Berufsausbildungsplatzvermittlung",
+      "description": [
+        "Unterstützung bei der Suche nach beruflicher Ausbildung in Deutschland",
+        "Erstellung eines professionellen Lebenslaufs, der Fähigkeiten und Leistungen hervorhebt",
+        "Unterstützung bei zweisprachigen Ausbildungsverträgen",
+        "Deutschkurse zur Verbesserung der Sprachkenntnisse",
+        "Anleitung und Unterstützung bei Visa-Prozessen",
+        "Fortlaufende Unterstützung bei der Ankunft, einschließlich der Suche nach Unterkünften"
+      ]
+    },
+    "DegreeRecognition": {
+      "title": "Anerkennung von Abschlüssen in Zusammenarbeit mit Arbeitgebern und unseren globalen Partnern",
+      "description": [
+        "Antrag auf Defizitbescheid",
+        "Antrag auf ZAV-Zulassung",
+        "Erstellung eines auf den Kandidaten zugeschnittenen Weiterbildungsvertrags gemäß den Anforderungen der Lizenzbehörden",
+        "Anerkennungsmanagement bis zum Erhalt des Berufszertifikats"
+      ]
+    },
+    "ProfessionalQualification": {
+      "title": "Berufsqualifikation in Zusammenarbeit mit Arbeitgebern und unseren globalen Partnern",
+      "description": ["Vorbereitungskurs für Wissenstests", "Wissenstest"]
+    },
+    "On-boardingandIntegration": {
+      "title": "On-boarding und Integration in Zusammenarbeit mit Arbeitgebern und unseren globalen Partnern",
+      "description": [
+        "Beantragung von Visa und Arbeitserlaubnissen",
+        "Planung und Organisation der Ankunft",
+        "Anmeldung beim zuständigen Gemeindeamt",
+        "Eröffnung eines Bankkontos",
+        "Anmeldung bei der gesetzlichen Krankenversicherung",
+        "Suche nach einer Wohnung"
+      ]
+    }
+  },
+
+  "inscriptionCondidates": {
+    "title": "Anmeldung Kandidaten",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "tele": "Telefon",
+    "pdf": "Laden Sie Ihren Lebenslauf hoch",
+
+    "Inscription": "Anmeldung"
+  }
+}

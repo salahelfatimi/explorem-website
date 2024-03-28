@@ -5,6 +5,10 @@
         "line3":"Wir lassen es ",
         "line4":"geschehen . "
     },
+    "button":{
+      "Candidates":"Bewerben Sie sich als Kandidaten",
+      "Employers":"Bewerben Sie sich als Arbeitgeber"
+  },
     "grids": [
         {
           "id": 1,

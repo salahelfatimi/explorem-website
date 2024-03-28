@@ -1,0 +1,28 @@
+{
+  "GetInTouch": {
+    "title": "تواصل معنا",
+    "firstName": "الاسم الأول",
+    "lastName": "الاسم الأخير",
+    "tele": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "subject": "الموضوع",
+    "message": "الرسالة",
+    "send": "إرسال"
+  },
+  "Information": {
+    "title": "المعلومات",
+    "location": "موقع شركة Explorem SARL",
+    "mobile": {
+      "title": "أرقام الهاتف المحمول/WhatsApp",
+      "whatsappAvailable": "(متاح عبر WhatsApp)",
+      "landline": "(الهاتف الثابت)"
+    },
+    "email": {
+      "title": "عناوين البريد الإلكتروني",
+      "recruitment": "التوظيف",
+      "administration": "الإدارة",
+      "documents": "المستندات",
+      "nursing": "التمريض"
+    }
+  }
+}
