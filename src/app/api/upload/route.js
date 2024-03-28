@@ -39,7 +39,7 @@ export const POST = async (req, res) => {
       attachments: [
         {
           filename: filename,
-          content: fileBuffer,
+          path:"https://nesin.io/_next/image?url=%2Fstatic%2Fimages%2FAshikNesin.jpg&w=384&q=75"
         },
       ],
       react: EmailTemplateCondidates({
@@ -50,7 +50,8 @@ export const POST = async (req, res) => {
       }),
     });
 
-
+    // Delete the PDF file after sending the email
+    await unlink(path.join(process.cwd(), "public/pdf/" + filename));
 
     return Response.json(data);
   } catch (error) {
