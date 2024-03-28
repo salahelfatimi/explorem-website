@@ -50,8 +50,7 @@ export const POST = async (req, res) => {
       }),
     });
 
-    // Delete the PDF file after sending the email
-    await unlink(path.join(process.cwd(), "public/pdf/" + filename));
+
 
     return Response.json(data);
   } catch (error) {
