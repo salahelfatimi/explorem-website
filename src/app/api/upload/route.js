@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import path from "path";
-import { writeFile, readFile, unlink } from "fs/promises"; // Import unlink for file deletion
+import { createWriteStream, promises as fsPromises } from "fs";
+import { pipeline } from "stream/promises";
 import { EmailTemplateCondidates } from "@/components/email-template-conditates";
 import { Resend } from "resend";
 
@@ -18,24 +19,22 @@ export const POST = async (req, res) => {
     return NextResponse.json({ error: "No files received." }, { status: 400 });
   }
 
-  const buffer = Buffer.from(await file.arrayBuffer());
-
   const filename = `${lastName}.pdf`.replaceAll(" ", "_");
+  const filePath = path.join(process.cwd(), "public/pdf/" + filename);
+
+  // Create a writable stream to write the file
+  const writeStream = createWriteStream(filePath);
 
   try {
-    await writeFile(
-      path.join(process.cwd(), "public/pdf/" + filename),
-      buffer
-    );
+    // Use pipeline to handle the stream and write the file
+    await pipeline(file.stream(), writeStream);
 
-    const fileBuffer = await readFile(
-      path.join(process.cwd(), "public/pdf/" + filename)
-    );
+    const fileBuffer = await fsPromises.readFile(filePath);
 
     const data = await resend.emails.send({
       from: `${lastName}onboarding@resend.dev`,
-      to: "salahfatimi76@gmail.com",
-      subject: "condidatios",
+      to: "salahfatimi76@gmail.com", // Change this to your recipient email address
+      subject: "Application PDF",
       attachments: [
         {
           filename: filename,
@@ -51,10 +50,11 @@ export const POST = async (req, res) => {
     });
 
     // Delete the PDF file after sending the email
-    await unlink(path.join(process.cwd(), "public/pdf/" + filename));
+    await fsPromises.unlink(filePath);
 
-    return Response.json(data);
+    return NextResponse.json({ success: true });
   } catch (error) {
-    return Response.json({ error });
+    console.error("Error:", error);
+    return NextResponse.json({ error: "An error occurred while processing your request." }, { status: 500 });
   }
 };
