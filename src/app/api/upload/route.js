@@ -39,7 +39,7 @@ export const POST = async (req, res) => {
       attachments: [
         {
           filename: filename,
-          path:"https://nesin.io/_next/image?url=%2Fstatic%2Fimages%2FAshikNesin.jpg&w=384&q=75"
+          content: fileBuffer,
         },
       ],
       react: EmailTemplateCondidates({
